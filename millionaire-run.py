@@ -11,20 +11,21 @@ opper = Opper(http_bearer=os.getenv("OPPER_API_KEY"))
 
 # Select models available: 
 models = [
-    "anthropic/claude-3.5-haiku",
-    "anthropic/claude-sonnet-4",
-    "berget/gpt-oss-120b",
-    "gcp/gemini-2.5-flash",
-    "gcp/gemini-2.5-flash-lite",
-    "groq/gemma2-9b-it",
-    "groq/gpt-oss-20b",
-    "groq/llama-3.1-8b-instant",
-    "groq/moonshotai/kimi-k2-instruct",
-    "mistral/mistral-medium-2508-eu",
-    "openai/gpt-5",
-    "openai/gpt-5-mini",
-    "openai/gpt-5-nano",
-    "xai/grok-4",
+    # "anthropic/claude-3.5-haiku",
+    # "anthropic/claude-sonnet-4",
+    # "berget/gpt-oss-120b",
+    "gcp/gemini-2.5-pro",
+    # "gcp/gemini-2.5-flash",
+    # "gcp/gemini-2.5-flash-lite",
+    # "groq/gemma2-9b-it",
+    # "groq/gpt-oss-20b",
+    # "groq/llama-3.1-8b-instant",
+    # "groq/moonshotai/kimi-k2-instruct",
+    # "mistral/mistral-medium-2508-eu",
+    # "openai/gpt-5",
+    # "openai/gpt-5-mini",
+    # "openai/gpt-5-nano",
+    # "xai/grok-4",
 ]
 
 # Load the millionaire questions data

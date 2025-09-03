@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-03T08:13:10.958416",
-  "total_models_evaluated": 15,
+  "timestamp": "2025-09-03T16:48:37.692032",
+  "total_models_evaluated": 16,
   "total_programs_per_model": 45,
   "leaderboard": [
     {
@@ -19,6 +19,15 @@
       "successful_programs": 32,
       "total_programs": 45,
       "success_rate": 71.1,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "gcp/gemini-2.5-pro",
+      "total_earnings": 30463250,
+      "average_earnings": 676961.11,
+      "successful_programs": 30,
+      "total_programs": 45,
+      "success_rate": 66.7,
       "max_earnings_single_program": 1000000
     },
     {
