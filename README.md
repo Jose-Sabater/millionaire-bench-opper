@@ -53,7 +53,7 @@ All data used comes from [Millionaire Bench](https://github.com/ikiruneo/million
 # Why this repository?
 - **Concurrent execution**: Run all "programs" concurrently with very fast inference
 - **Translation support**: Translate the original data so English readers understand the questions (questions are still asked in German to the models)
-- **Convenience**: Uses Opper for ease of use, which provides:
+- **Convenience**: Uses [Opper](https://opper.ai) for ease of use, which provides:
   - Access to many open source and proprietary models ([see list](https://docs.opper.ai/capabilities/models))
   - Built in observability and retries
   - Convenient structured input/output for evaluating exact matches
