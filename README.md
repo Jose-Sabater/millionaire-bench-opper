@@ -1,103 +1,105 @@
-# "Wer wird Millionär?" LLM Benchmark
+# Millionaire Bench Opper
+Run [Millionaire Bench](https://github.com/ikiruneo/millionaire-bench/tree/main) concurrently and with many os and proprietary models
 
- i have created a benchmark for german "who wants to be millionaire" questions. there are 45x15 questions, all 45 rounds go from easy to hard and all tested models ran through all 45 rounds and got kicked out of a round if the answer was wrong, keeping the current winnings. no jokers.
 
-i am a bit limited with the selection of llm's since i run them on my framework laptop 13 (amd ryzen 5 7640u with 32 gb ram), so i mainly used smaller llm's. also, qwen3's thinking went on for way to long for each question so i just tested non-thinking models except for gpt-oss-20b (low). but in my initial testing for qwen3-4b-thinking-2507, it seemed to worsen the quality of answers at least for the first questions.
+Transformed the input data into a better format and also translated it. [fragen_antwrten_en](fragen_antworten_en.json)
+Each group of 15 questions is a "program". How many programs can each model complete successfully?
+Earnings are calculated in the same way as the original show and the original millionaire bench.
 
-the first few questions are often word-play and idioms questions needing great understanding of the german language. these proved to be very hard for most llm's but are easily solvable by the average german. once the first few questions were solved the models had an easier time answering.
+# Leaderboard
 
-i tried to use optimal model settings and included them in the table, let me know if they could be improved. all models are quant Q4_K_M.
+*Last updated: September 3, 2025*
 
-i have close to no python coding ability so the main script was created with qwen3-coder. the project (with detailed results for each model, and the queationaire) is open souce and available on github.
+| Rank | Model | Avg Earnings (€) | Total Earnings (€) | Programs Won | Success Rate | Max Single Program (€) |
+|------|-------|------------------|--------------------|--------------|--------------|-----------------------|
+| 🥇 | xai/grok-4 | 771,494 | 34,717,250 | 34/45 | 75.6% | 1,000,000 |
+| 🥈 | openai/gpt-5 | 728,922 | 32,801,500 | 32/45 | 71.1% | 1,000,000 |
+| 🥉 | openai/gpt-5-mini | 576,506 | 25,942,750 | 24/45 | 53.3% | 1,000,000 |
+| 4 | gcp/gemini-2.5-flash | 520,001 | 23,400,050 | 23/45 | 51.1% | 1,000,000 |
+| 5 | fireworks/glm-4.5 | 407,521 | 18,338,450 | 17/45 | 37.8% | 1,000,000 |
+| 6 | anthropic/claude-sonnet-4 | 370,954 | 16,692,950 | 15/45 | 33.3% | 1,000,000 |
+| 7 | mistral/mistral-medium-2508-eu | 245,930 | 11,066,850 | 10/45 | 22.2% | 1,000,000 |
+| 8 | openai/gpt-5-nano | 235,467 | 10,596,000 | 10/45 | 22.2% | 1,000,000 |
+| 9 | berget/gpt-oss-120b | 205,642 | 9,253,900 | 8/45 | 17.8% | 1,000,000 |
+| 10 | gcp/gemini-2.5-flash-lite | 94,410 | 4,248,450 | 3/45 | 6.7% | 1,000,000 |
+| 11 | groq/moonshotai/kimi-k2-instruct | 86,370 | 3,886,650 | 3/45 | 6.7% | 1,000,000 |
+| 12 | groq/gpt-oss-20b | 53,200 | 2,394,000 | 2/45 | 4.4% | 1,000,000 |
+| 13 | anthropic/claude-3.5-haiku | 30,512 | 1,373,050 | 1/45 | 2.2% | 1,000,000 |
+| 14 | groq/gemma2-9b-it | 3,308 | 148,850 | 0/45 | 0.0% | 125,000 |
+| 15 | groq/llama-3.1-8b-instant | 106 | 4,750 | 0/45 | 0.0% | 2,000 |
 
-## Usage
+**Total models evaluated:** 15 | **Programs per model:** 45 | **Total questions asked:** 10,125
 
-1. Make sure your LLM server (e.g., LM Studio) is running and accessible at `http://localhost:1234`
-2. Run the benchmark script:
 
-```bash
-python3 benchmark_llm.py
+## Run your own tests
+1. Install dependencies using uv:
+   ```bash
+   uv sync
+   ```
+
+2. Run the benchmark:
+   ```bash
+   uv run millionaire-run.py
+   ```
+
+3. Rebuild leaderboard from individual results:
+   ```bash
+   python rebuild_leaderboard.py
+   ```
+
+# Resources
+All data used comes from [Millionaire Bench](https://github.com/ikiruneo/millionaire-bench/tree/main), which uses data from https://github.com/GerritKainz/wer_wird_millionaer.
+
+# Why this repository?
+- **Concurrent execution**: Run all "programs" concurrently with very fast inference
+- **Translation support**: Translate the original data so English readers understand the questions (questions are still asked in German to the models)
+- **Convenience**: Uses Opper for ease of use, which provides:
+  - Access to many open source and proprietary models ([see list](https://docs.opper.ai/capabilities/models))
+  - Built in observability and retries
+  - Convenient structured input/output for evaluating exact matches
+
+# Example Translation
+```json
+{
+"level": 1,
+"question": "Ein bekanntes Sprichwort heisst: 'Alter... ?'",
+"options": {
+    "A": "Norwege",
+    "B": "Schwede",
+    "C": "Daene",
+    "D": "Englaender"
+},
+"answer": "B",
+"options_str": "A: Norwege, B: Schwede, C: Daene, D: Englaender",
+"question_en": "A well-known proverb goes: 'Age... ?'",
+"options_str_en": "A: Norwegian, B: Swede, C: Dane, D: Englishman"
+},
+{
+"level": 2,
+"question": "Worum handelt es sich, wenn man eine Ware direkt bei uebergabe des Pakets bezahlt?",
+"options": {
+    "A": "Vornahme",
+    "B": "Nachnahme",
+    "C": "Kosenahme",
+    "D": "Taufnahme"
+},
+"answer": "B",
+"options_str": "A: Vornahme, B: Nachnahme, C: Kosenahme, D: Taufnahme",
+"question_en": "What is it called when you pay for merchandise directly upon delivery of the package?",
+"options_str_en": "A: First name, B: Last name, C: Pet name, D: Baptismal name"
+},
+{
+"level": 3,
+"question": "Womit werden Eisenbahnwaggons professionell abgebremst?",
+"options": {
+    "A": "Riemchensandale",
+    "B": "Lederstiefel",
+    "C": "Badeschlapfen",
+    "D": "Hemmschuh"
+},
+"answer": "D",
+"options_str": "A: Riemchensandale, B: Lederstiefel, C: Badeschlapfen, D: Hemmschuh",
+"question_en": "What are railroad cars professionally braked with?",
+"options_str_en": "A: Strappy sandal, B: Leather boot, C: Shower sandals, D: Brake shoe"
+}
 ```
-
-3. When prompted, enter which question to start with:
-   - Enter a number between 1-45 to start with that question set (level 1-15)
-   - Enter "0" to play all 45 rounds sequentially
-
-## Benchmark Results
-
-### Locally by myself
-| Model Name | Total Params | Active Params | Average Winnings | Million Wins | Parameters |
-|------------|---------------|--------------|------------------|--------------|------------|
-| *gpt-oss-20b (low) | 21B | 4B | 80.177€ | 3 | T:1, K:0, P:1.0, Min:0.0 |
-| mistral-small-3.2 | 24B | 24B | 63.812€ | 2 | T:0.15, K:40, P:0.95, Min:0.05 |
-| qwen3-30b-a3b-2507 | 30B | 3B | 52.216€ | 2 | T:0.7, K:20, P:0.8, Min:0.0 |
-| meta-llama-3.1-8b-instruct | 8B | 8B | 23.904€ | 1 | T:0.6, K:40, P:0.9, Min:0.05 |
-| microsoft-phi-4 | 14B | 14B | 5.884€ | 0 | T:0.6, K:40, P:0.9, Min:0.05 |
-| hermes-4-14b | 14B | 14B | 3.954€ | 0 | T:0.6, K:20, P:0.95, Min:0.05 |
-| gemma-3-12b | 12B | 12B | 3.648€ | 0 | T:0.8, K:40, P:0.9, Min:0.05 |
-| granite-3.2-8b | 8B | 8B | 726€ | 0 | T:0.6, K:50, P:0.9, Min:0.05 |
-| qwen3-4b-2507 | 4B | 4B | 643€ | 0 | T:0.7, K:40, P:0.8, Min:0.05 |
-| mistral-nemo-instruct-2407 | 12B | 12B | 227€ | 0 | T:0.3, K:-1, P:0.77, Min:0.025 |
-| llama-3.2-3b-instruct | 3B | 3B | 104€ | 0 | T:0.6, K:40, P:0.9, Min:0.05 |
-| gemma-3-4b | 4B | 4B | 103€ | 0 | T:1, K:64, P:0.95, Min:0 |
-| phi-4-mini-instruct | 3B | 3B | 84€ | 0 | T:0.8, K:40, P:0.95, Min:0.05 |
-
-*thinking
-
-### User Submitted
-
-| Model Name | Total Params | Active Params | Average Winnings | Million Wins | Parameters |
-|:-------------------------------------------|:-------------|:--------------|:-----------------|:-------------|:----------------------------|
-| gpt-5 (medium) | N/A | N/A | 813.783€ | 36 | T:0.6, P:1 |
-| google/gemini-2.5-pro | N/A | N/A | 742.004€ | 33 | T:0.6, P:1 |
-| o3 (medium) | N/A | N/A | 716.546€ | 31 | T:0.6, P:1 |
-| o4-mini (medium) | N/A | N/A | 512.221€ | 21 | T:0.6, P:1 |
-| z-ai/glm-4.5-FP8 | 355B | 32B | 410.813€ | 17 | T:0.6, K:40, P:0.9, Min:0.1 |
-| qwen/qwen3-235b-a22b | 235B | 22B | 369.027€ | 15 | T:0.6, P:1 |
-| gpt-4o | N/A | N/A | 302.186€ | 12 | T:0.6, P:1 |
-| gpt-5-nano (medium) | N/A | N/A | 299.494€ | 12 | T:0.6, P:1 |
-| z-ai-glm-4.5-air-FP8 | 106B | 12B | 281.459€ | 12 | T:0.6, K:40, P:0.9, Min:0.1 |
-| gpt-5 (minimal) | N/A | N/A | 277.661€ | 11 | T:0.6, P:1 |
-| openai/gpt-oss-120b | 120B | 120B | 275.564€ | 11 | T:0.6, P:1 |
-| gpt-4.1 | N/A | N/A | 256.073€ | 10 | T:0.6, P:1 |
-| google/gemini-2.5-flash | N/A | N/A | 205.816€ | 7 | T:0.6, P:1 |
-| qwen/qwq-32b | 32B | 32B | 197.799€ | 8 | T:0.6, P:1 |
-| qwen/qwen3-235b-a22b-2507 | 235B | 22B | 163.144€ | 7 | T:0.6, P:1 |
-| deepseek/deepseek-chat-v3-0324 | 67.1B | 67.1B | 161.492€ | 6 | T:0.6, P:1 |
-| meta-llama/llama-4-maverick | 400B | 18B | 161.411€ | 6 | T:0.6, P:1 |
-| c4ai-command-a-03-2025 | 111B | 111B | 155.636€ | 6 | T:0.6, K:40, P:0.9, Min:0.1 |
-| deepseek/deepseek-chat-v3.1 | 68.5B | 68.5B | 142.581€ | 6 | T:0.6, P:1 |
-| moonshotai/kimi-k2 | 1T | 32B | 125.136€ | 4 | T:0.6, P:1 |
-| gpt-4.1-mini | N/A | N/A | 113.616€ | 3 | T:0.6, P:1 |
-| qwen/qwen3-coder | 480B | 480B | 92.022€ | 4 | T:0.6, P:1 |
-| Behemoth-123B-v1.2 | 123B | 123B | 84.963€ | 3 | T:0.6, K:40, P:0.9, Min:0.1 |
-| gpt-4o-mini | N/A | N/A | 74.698€ | 2 | T:0.6, P:1 |
-| google/gemini-2.5-flash-lite | N/A | N/A | 63.107€ | 2 | T:0.6, P:1 |
-| meta-llama/llama-3.3-70b-instruct | 70B | 70B | 58.309€ | 2 | T:0.6, P:1 |
-| gpt-5-mini (minimal) | N/A | N/A | 53.618€ | 1 | T:0.6, P:1 |
-| mistralai/mistral-small-3.2-24b-instruct | 24B | 24B | 41.017€ | 1 | T:0.6, P:1 |
-| gpt-4.1-nano | N/A | N/A | 37.838€ | 1 | T:0.6, P:1 |
-| google/gemma-3-27b-it | 27B | 27B | 7.634€ | 0 | T:0.6, P:1 |
-| gpt-5-nano (minimal) | N/A | N/A | 2.324€ | 0 | T:0.6, P:1 |
-| microsoft/phi-4 | 14B | 14B | 1.892€ | 0 | T:0.6, P:1 |
-| meta-llama/llama-3.2-1b-instruct | 1B | 1B | 155€ | 0 | T:0.6, P:1 |
-| meta-llama/llama-3.2-3b-instruct | 3B | 3B | 121€ | 0 | T:0.6, P:1 |
-
-thanks to the reddit users `FullOf_Bad_Ideas` and `Pauli1_Go` for their help.
-
-### Different quant tests
-| Model Name | Q4_K_M | Q8_0 | Difference |
-|------------|--------|------|------------|
-| qwen3-4b-instruct-2507 | 643€ | 4.457€ | +593% |
-| gemma-3-4b | 103€ | 141€ | +36% |
-| llama-3.2-3b-instruct | 104€ | 78€ | -25% |
-
-ran every test 3 times and picked the median. results are very inconsistent for small models (±50%)
-
-## Rules
-- 45 unique rounds
-- if lost, current winnings are kept
-- no jokers
-
-## Resources
-Questions: https://github.com/GerritKainz/wer_wird_millionaer

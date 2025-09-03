@@ -1,0 +1,3640 @@
+{
+  "model": "groq/gpt-oss-20b",
+  "total_programs": 45,
+  "successful_programs": 2,
+  "total_earnings": 2394000,
+  "average_earnings": 53200.0,
+  "programs": [
+    {
+      "program_id": 1,
+      "questions_answered": 4,
+      "final_earnings": 300,
+      "eliminated_at_level": 5,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Ein bekanntes Sprichwort heisst: 'Alter... ?'",
+          "question_text_en": "A well-known proverb goes: 'Age... ?'",
+          "options": {
+            "A": "Norwege",
+            "B": "Schwede",
+            "C": "Daene",
+            "D": "Englaender"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Worum handelt es sich, wenn man eine Ware direkt bei uebergabe des Pakets bezahlt?",
+          "question_text_en": "What is it called when you pay for merchandise directly upon delivery of the package?",
+          "options": {
+            "A": "Vornahme",
+            "B": "Nachnahme",
+            "C": "Kosenahme",
+            "D": "Taufnahme"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Womit werden Eisenbahnwaggons professionell abgebremst?",
+          "question_text_en": "What are railroad cars professionally braked with?",
+          "options": {
+            "A": "Riemchensandale",
+            "B": "Lederstiefel",
+            "C": "Badeschlapfen",
+            "D": "Hemmschuh"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Der 24. Juni ist traditionell das Ende der ...?",
+          "question_text_en": "June 24 is traditionally the end of the ...?",
+          "options": {
+            "A": "Fastenzeit",
+            "B": "Badesaison",
+            "C": "Weidezeit",
+            "D": "Spargelsaison"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Welchen Reim gibt es nicht?",
+          "question_text_en": "Which rhyme does not exist?",
+          "options": {
+            "A": "Paarreim",
+            "B": "Kreuzreim",
+            "C": "Klammerrein",
+            "D": "Umarmender Reim"
+          },
+          "correct_answer": "C",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 500
+        }
+      ]
+    },
+    {
+      "program_id": 2,
+      "questions_answered": 6,
+      "final_earnings": 1000,
+      "eliminated_at_level": 7,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was haben verliebte Menschen redensartlich in den Augen?",
+          "question_text_en": "What do people in love have in their eyes, figuratively speaking?",
+          "options": {
+            "A": "Pickerl",
+            "B": "Fleckerl",
+            "C": "Herzerl",
+            "D": "Mascherl"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "In welchem Grimm-Maerchen waere eine Heckenschere fuer viele Koenigssoehne eine grosse Hilfe gewesen?",
+          "question_text_en": "In which Grimm fairy tale would a hedge trimmer have been a great help to many princes?",
+          "options": {
+            "A": "Aschenputtel",
+            "B": "Schneewittchen",
+            "C": "Dornroeschen",
+            "D": "Rotkaeppchen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Eichhoernchen sind im wahrsten Sinne des Wortes ...?",
+          "question_text_en": "Squirrels are in the truest sense of the word ...?",
+          "options": {
+            "A": "Dosenoeffner",
+            "B": "Korkenzieher",
+            "C": "Knoblauchpressen",
+            "D": "Nussknacker"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Worueber ist man nach dem Waschen weisser Waesche in der Regel absolut nicht erfreut?",
+          "question_text_en": "What is one usually absolutely not pleased about after washing white laundry?",
+          "options": {
+            "A": "Blaupause",
+            "B": "Schwarzarbeit",
+            "C": "Grauschleier",
+            "D": "Gelbfieber"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Ein Verlierer bei den Tennis-French-Open hat das Spiel nicht nur sprichwoertlich ...?",
+          "question_text_en": "A loser at the French Open in tennis hasn't just, figuratively speaking, ... the match?",
+          "options": {
+            "A": "an den Nagel gehaengt",
+            "B": "in den Wind geschossen",
+            "C": "in den Sand gesetzt",
+            "D": "auf die hohe Kante gelegt"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wie heisst es richtig?",
+          "question_text_en": "How do you say it correctly?",
+          "options": {
+            "A": "privilegiert",
+            "B": "priviligiert",
+            "C": "previligiert",
+            "D": "priveligiert"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Jugendliche streiten nicht, sie haben... ?",
+          "question_text_en": "Teenagers don't argue, they have... ?",
+          "options": {
+            "A": "Cow",
+            "B": "Beef",
+            "C": "Dog",
+            "D": "Chicken"
+          },
+          "correct_answer": "B",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 2000
+        }
+      ]
+    },
+    {
+      "program_id": 3,
+      "questions_answered": 12,
+      "final_earnings": 64000,
+      "eliminated_at_level": 13,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wer voellig ausser Atem ist, der ...?",
+          "question_text_en": "Who is completely out of breath, ...?",
+          "options": {
+            "A": "greift nach den Sternen",
+            "B": "schnappt nach Luft",
+            "C": "fasst sich ein Herz",
+            "D": "beisst ein Gras"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "An den ausgezeichneten Mathe-Noten sehen die Eltern: Ihr Kind ist ein...?",
+          "question_text_en": "From the excellent math grades, the parents see: Their child is a ...?",
+          "options": {
+            "A": "super Computer",
+            "B": "prima Laptop",
+            "C": "guter Rechner",
+            "D": "leistungsstarker PC"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Fuer besonders langsame Autobahnbenutzer gibt es streckenweise ganz rechts...?",
+          "question_text_en": "For particularly slow motorway users there is on some stretches all the way on the right...?",
+          "options": {
+            "A": "die Bummelbahn",
+            "B": "den Bremsstreifen",
+            "C": "den Schleichweg",
+            "D": "die Kriechspur"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Womit arbeiten Kernphysiker?",
+          "question_text_en": "What do nuclear physicists work with?",
+          "options": {
+            "A": "Kuchenkatapult",
+            "B": "Windbeutelkanone",
+            "C": "Brezenduese",
+            "D": "Teilchenbeschleuniger"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Was gilt es beim Loesen mancher Sudoku-Varianten zu beachten?",
+          "question_text_en": "What should be considered when solving certain Sudoku variants?",
+          "options": {
+            "A": "Brummen",
+            "B": "Knurren",
+            "C": "Summen",
+            "D": "Murren"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Was kann man in einem Lokal in New York oder London mit dem Zusatz 'over easy' bestellen?",
+          "question_text_en": "What can you order in a restaurant in New York or London with the term 'over easy'?",
+          "options": {
+            "A": "Spiegelei",
+            "B": "Steak",
+            "C": "Chicken Wings",
+            "D": "Kartoffelpuffer"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Was hatte die Medusa statt Haare auf dem Kopf?",
+          "question_text_en": "What did Medusa have on her head instead of hair?",
+          "options": {
+            "A": "Schlangen",
+            "B": "Spinnen",
+            "C": "Echsen",
+            "D": "Maeuse"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Ein wahrer Touristenmagnet in Wien ist die mit Figuren bestueckte von 1914, ein herausragendes Werk des ...?",
+          "question_text_en": "A true tourist magnet in Vienna is the figure-adorned one from 1914, an outstanding work of the ...?",
+          "options": {
+            "A": "Jugendstils",
+            "B": "Rokokos",
+            "C": "Barocks",
+            "D": "Biedermeiers"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Die laengste Zeit, die ein Astronaut bislang zwischen Landung und Abflug auf dem Mond verbracht hat, betraegt gut ...?",
+          "question_text_en": "The longest time an astronaut has spent so far between landing and liftoff on the Moon is a good ...?",
+          "options": {
+            "A": "3 Minuten",
+            "B": "3 Stunden",
+            "C": "3 Tage",
+            "D": "3 Wochen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Zu den fuenf Disziplinen des Pentathlons im antiken Griechenland zaehlten Lauf, Weitsprung, Diskuswurf, Ringen und ...?",
+          "question_text_en": "Among the five disciplines of the pentathlon in ancient Greece were running, long jump, discus throw, wrestling, and ...?",
+          "options": {
+            "A": "das Lanzenstechen",
+            "B": "der Speerwurf",
+            "C": "das Bogenschiessen",
+            "D": "der Schwertkampf"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Wie heisst der laengste Fluss der Welt?",
+          "question_text_en": "What is the name of the longest river in the world?",
+          "options": {
+            "A": "Amazonas",
+            "B": "Wolga",
+            "C": "Moldau",
+            "D": "Nil"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "In welcher Grotte in Rom wurden Romulus und Remus angeblich von einer Woelfin aufgezogen?",
+          "question_text_en": "In which grotto in Rome were Romulus and Remus supposedly raised by a she-wolf?",
+          "options": {
+            "A": "Lupercal",
+            "B": "Cuniculus",
+            "C": "Ursalia",
+            "D": "Vulpecula"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "Welches Land hat 2015 seine Kandidatur fuer eine EU-Mitgliedschaft offiziell zurueckgezogen?",
+          "question_text_en": "Which country officially withdrew its candidacy for EU membership in 2015?",
+          "options": {
+            "A": "Norwegen",
+            "B": "Monaco",
+            "C": "Island",
+            "D": "Ukraine"
+          },
+          "correct_answer": "C",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 125000
+        }
+      ]
+    },
+    {
+      "program_id": 4,
+      "questions_answered": 3,
+      "final_earnings": 200,
+      "eliminated_at_level": 4,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Verkehrsbehinderte Falschparker werden ...?",
+          "question_text_en": "Illegally parked vehicles obstructing traffic will be ...?",
+          "options": {
+            "A": "angebaggert",
+            "B": "aufgerissen",
+            "C": "abgeschleppt",
+            "D": "flachgelegt"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Ist bei Minister Seehofer eine beginnende Flatze festzustellen, dann wird offenbar das Haar bei ...?",
+          "question_text_en": "If an incipient bald spot can be detected on Minister Seehofer, then apparently the hair is at ...?",
+          "options": {
+            "A": "Horst hrubesch",
+            "B": "Horst koehler",
+            "C": "Horst lichter",
+            "D": "Horst schlaemmer"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Anschaffungen, fuer die man jeden Cent zuruecklegen musste, hat man sich redensartlich ...?",
+          "question_text_en": "Purchases, for which one had to set aside every cent, one has, idiomatically, ...?",
+          "options": {
+            "A": "vom Munde abgespart",
+            "B": "aus der Nase gezogen",
+            "C": "von der Backe geputzt",
+            "D": "hinter die Ohren geschrieben"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Wobei hhandelt es sich nicht um einen Beruf?",
+          "question_text_en": "Which of the following is not a profession?",
+          "options": {
+            "A": "Weinkellner",
+            "B": "Biersieder",
+            "C": "Kafferoester",
+            "D": "Kognakschwenker"
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 300
+        }
+      ]
+    },
+    {
+      "program_id": 5,
+      "questions_answered": 12,
+      "final_earnings": 64000,
+      "eliminated_at_level": 13,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Ertoent im Radio eines englischen Kultautos ein Song von AC/DC, hoert der Fahrer im ...?",
+          "question_text_en": "If a song by AC/DC comes on the radio of an English cult car, does the driver hear it in the ...?",
+          "options": {
+            "A": "Ki Mono",
+            "B": "Smo King",
+            "C": "Golf Schuh",
+            "D": "Mini Rock"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Welche Stadt wird  mit einem Buchstaben weniger - zu einem markanten Organ des Elefanten?",
+          "question_text_en": "Which city becomes  with one letter fewer - a prominent organ of the elephant?",
+          "options": {
+            "A": "Madrid",
+            "B": "Rom",
+            "C": "Athen",
+            "D": "Bruessel"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Fern von Pflichten und strengem Hofzeremonielle wohnten Herrscher frueher haeufig in ...?",
+          "question_text_en": "Far from duties and strict court etiquette, rulers in the past often lived in ...?",
+          "options": {
+            "A": "Eispalaesten",
+            "B": "Bettenburgen",
+            "C": "Lustschloessern",
+            "D": "Bauruinen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Wer sich aufregt, der ...?",
+          "question_text_en": "Whoever gets worked up, ...?",
+          "options": {
+            "A": "kriegt einen Foehn",
+            "B": "erhaelt einen Rasierapparat",
+            "C": "bekommt eine Haarbuerste",
+            "D": "gewinnt eine Duschhaube"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Nach dem chemischen Element mit der Ordnungszahl 26 befragt, wunderte sich der Kandidat: 'Ist das etwa ...'?",
+          "question_text_en": "When asked about the chemical element with atomic number 26, the contestant wondered: 'Is that maybe ...'?",
+          "options": {
+            "A": "Erf? Urt!",
+            "B": "Strals? Und!",
+            "C": "Goerl? Itz!",
+            "D": "Eisen? Ach"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wie viele Newtonsche Gesetze gibt es?",
+          "question_text_en": "How many Newtonian laws are there?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Wer schrieb Vom Winde verweht?",
+          "question_text_en": "Who wrote Gone with the Wind?",
+          "options": {
+            "A": "Leo Tolstoi",
+            "B": "Margaret Mitchel",
+            "C": "J.K. Rowling",
+            "D": "Oscar Wilde"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Das franzoesische Wort fuer 'gestern' ist ...?",
+          "question_text_en": "The French word for 'yesterday' is ...?",
+          "options": {
+            "A": "morgen",
+            "B": "da",
+            "C": "hier",
+            "D": "hinten"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Wie viele 8000er Berge gibt es?",
+          "question_text_en": "How many eight-thousanders are there?",
+          "options": {
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "16"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Betragen die Seitenlaengen bei einem Dreieck 3, 4 und 5 cm, dann handelt es sich definitiv um welches Dreieck?",
+          "question_text_en": "If the side lengths of a triangle are 3, 4 and 5 cm, then it is definitely which triangle?",
+          "options": {
+            "A": "spitzwinkliges",
+            "B": "rechtwinkliges",
+            "C": "stumpfwinkliges",
+            "D": "gleichwinkliges"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Wer schrieb Robinson Crusoe?",
+          "question_text_en": "Who wrote Robinson Crusoe?",
+          "options": {
+            "A": "Victor Hugo",
+            "B": "C.S. Lewis",
+            "C": "H.G. Wells",
+            "D": "Daniel Defoe"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "Wie wird der Abstand zwischen Erde und Sonne genannt?",
+          "question_text_en": "What is the distance between the Earth and the Sun called?",
+          "options": {
+            "A": "Astronomische Einheit",
+            "B": "Sonneneinheit",
+            "C": "Planeteneinheit",
+            "D": "Erdeinheit"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "Wie viele Rollen hat Loriot in seinem Film 'Papa ante portas'?",
+          "question_text_en": "How many roles does Loriot have in his film 'Papa ante portas'?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correct_answer": "D",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 125000
+        }
+      ]
+    },
+    {
+      "program_id": 6,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was setzt man redensartlich in bewegung, um etwas unbedingt zu erreichen?",
+          "question_text_en": "What do you proverbially set in motion, in order to achieve something at all costs?",
+          "options": {
+            "A": "Alt und Jung",
+            "B": "Hals- und Beinbruch",
+            "C": "Himmel und Hoelle",
+            "D": "Saus und Braus"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 7,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Bereiten sich 'Wer wird Millionaer?'-Kandidaten nur auf Tierfragen vor, aber es kommt keine einzige, was es wohl 'vergebliche ...'?",
+          "question_text_en": "Do 'Who Wants to Be a Millionaire?'-contestants prepare only for animal questions, but not a single one comes up, what would that be, 'futile ...'?",
+          "options": {
+            "A": "Beziehungsarbeit",
+            "B": "Liebesmueh",
+            "C": "Paartherapie",
+            "D": "Flirtbereitschaft"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Die Briten schickten vor einigen Jahrhunderten ihre Boesewichte in welches Land?",
+          "question_text_en": "The British sent their criminals to which country a few centuries ago?",
+          "options": {
+            "A": "Russland",
+            "B": "Mongolei",
+            "C": "Australien",
+            "D": "Luxemburg"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "'Klappe zu ...'?",
+          "question_text_en": "'Shut up ...'?",
+          "options": {
+            "A": "Maus tot",
+            "B": "Affe tot",
+            "C": "Katze tot",
+            "D": "Elefant tot"
+          },
+          "correct_answer": "B",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 8,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Welche Tiere benutzte Hanniball bei seinem Feldzug ueber die Alpen?",
+          "question_text_en": "Which animals did Hannibal use during his campaign across the Alps?",
+          "options": {
+            "A": "Lamas",
+            "B": "Elefanten",
+            "C": "Pferde",
+            "D": "Esel"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Bei hinreichender kuenstlerischer Begabung kann  ich beispielsweise aus Ton ein ...?",
+          "question_text_en": "With sufficient artistic talent I can for example make a ... out of clay?",
+          "options": {
+            "A": "Umm brueche",
+            "B": "aenn derungen",
+            "C": "Reh formen",
+            "D": "Neuh erungen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 9,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wer kein koffeinhaltiges Getraenk mehr mag, der ist die ...?",
+          "question_text_en": "Whoever doesn't like caffeinated beverages anymore is the ...?",
+          "options": {
+            "A": "Limo nahde",
+            "B": "Apfel schorrle",
+            "C": "Bitter laemmen",
+            "D": "Cola leid"
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 10,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wie wird das Nest des Adlers bezeichnet?",
+          "question_text_en": "What is the eagle's nest called?",
+          "options": {
+            "A": "Heinz",
+            "B": "Hans",
+            "C": "Horst",
+            "D": "Hugo"
+          },
+          "correct_answer": "C",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 11,
+      "questions_answered": 13,
+      "final_earnings": 125000,
+      "eliminated_at_level": 14,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "In einem Laden fuer Anglerbedarf fragen gewiss viele Kunden ...?",
+          "question_text_en": "In a fishing tackle shop many customers surely ask ...?",
+          "options": {
+            "A": "dran Bleiben",
+            "B": "weiter Bohren",
+            "C": "nach Haken",
+            "D": "insis Tieren"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wenn es daemmert, bricht der Tag ...?",
+          "question_text_en": "When it dawns, does the day break ...?",
+          "options": {
+            "A": "auf",
+            "B": "an",
+            "C": "ein",
+            "D": "zusammen"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Einem beliebten Zungenbrecher nach zwitschern zwei Schwalben zwischen zwei ...?",
+          "question_text_en": "According to a popular tongue twister, two swallows chirp between two ...?",
+          "options": {
+            "A": "Zwiebeltuermen",
+            "B": "Zwergpudeln",
+            "C": "Zwetschkenzweigen",
+            "D": "Zwillingsreifen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Was bekpommen Lehrerinnen am Goethe-Institut vermutlich haeufig zu hoeren?",
+          "question_text_en": "What do female teachers at the Goethe-Institut presumably often hear?",
+          "options": {
+            "A": "gebrochenes Deutsch",
+            "B": "verrenktes Englisch",
+            "C": "gestauchtes Franzoesosch",
+            "D": "gezerrtes Italienisch"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Die Gewwerkschaft NGG vertritt namentlich Beschaeftige der bereiche Nahrung-Genuss-...?",
+          "question_text_en": "The NGG trade union represents, namely, employees of the areas Food-Indulgence-...?",
+          "options": {
+            "A": "Geschmack",
+            "B": "Gaststaetten",
+            "C": "Getraenkehandel",
+            "D": "Getreideanbau"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Worin werden chinesische Teigtaschen ueblicherweise gedaempft?",
+          "question_text_en": "What are Chinese dumplings usually steamed in?",
+          "options": {
+            "A": "Bambuskorb",
+            "B": "Eichenfass",
+            "C": "Tontopf",
+            "D": "Steinofen"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Kinder und Junggebliebene erfreuen sich an Beatrix Potters Kinderbuch ueber ...?",
+          "question_text_en": "Children and the young at heart enjoy Beatrix Potter's children's book about ...?",
+          "options": {
+            "A": "Martin Hamster",
+            "B": "Paul Maus",
+            "C": "Peter Hase",
+            "D": "Leo Ratte"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Wie heissen die putzigen Weltraumtierchen, die sich auf dem 'Raumschiff Enterprise' ausbreiten?",
+          "question_text_en": "What are the cute little space critters called that spread on the 'Starship Enterprise'?",
+          "options": {
+            "A": "Fraggles",
+            "B": "Gremlins",
+            "C": "Tribbels",
+            "D": "Muggels"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Ein Kreis mit einem Umfang von 3.141,6 Metern hat einen Durchmesser von ziemlich genau ...?",
+          "question_text_en": "A circle with a circumference of 3.141,6 meters has a diameter of almost exactly ...?",
+          "options": {
+            "A": "0,1 km",
+            "B": "1 km",
+            "C": "10 km",
+            "D": "100 km"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Welche Grossstadt wurde 1666 durch einen Brand groesstenteils zerstoert?",
+          "question_text_en": "Which major city was mostly destroyed by a fire in 1666?",
+          "options": {
+            "A": "Lissabon",
+            "B": "Paris",
+            "C": "London",
+            "D": "Rom"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Nach welchem dieser Wissenschaftler wurde kein chemisches Element benannt?",
+          "question_text_en": "After which of these scientists was no chemical element named?",
+          "options": {
+            "A": "Albert Einstein",
+            "B": "Niels Bohr",
+            "C": "Isaac Newton",
+            "D": "Enrico Fermi"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "Wolfgang Amadeus Mozarts Ehefrau Constanze war die Cousine des Komponisten ...?",
+          "question_text_en": "Wolfgang Amadeus Mozart's wife Constanze was the cousin of the composer ...?",
+          "options": {
+            "A": "Carl Maria von Weber",
+            "B": "Georg Friedrich Haendel",
+            "C": "Gustav Mahler",
+            "D": "Robert Schumann"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "Wer war der dritte Mann neben Caesar und Pompeius im sogenannten 1. Triumvirat?",
+          "question_text_en": "Who was the third man alongside Caesar and Pompey in the so-called 1st Triumvirate?",
+          "options": {
+            "A": "Lucullus",
+            "B": "Lepidus",
+            "C": "Crassus",
+            "D": "Brutus"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 125000
+        },
+        {
+          "question_level": 14,
+          "question_text": "Bei wem handelt es sich dem offiziellen Titel zufolge um einen 'Verteidiger des Glaubens'?",
+          "question_text_en": "According to the official title, who is referred to as a 'Defender of the Faith'?",
+          "options": {
+            "A": "Elisabth II.",
+            "B": "Donald Trump",
+            "C": "Benedikt XVI.",
+            "D": "Wladimir Putin"
+          },
+          "correct_answer": "A",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 500000
+        }
+      ]
+    },
+    {
+      "program_id": 12,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "In Muenchen steht ein ...?",
+          "question_text_en": "In Munich stands a ...?",
+          "options": {
+            "A": "schiefer Turm",
+            "B": "Koelner Dom",
+            "C": "Riesenrad",
+            "D": "Hofbraeuhaus"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Vor allem verunsicherten Menschen suchen in ihrem Leben nach einer ...?",
+          "question_text_en": "Above all, insecure people look in their lives for a ...?",
+          "options": {
+            "A": "Parabel",
+            "B": "Tangente",
+            "C": "Konstanten",
+            "D": "Hypotenuse"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Was ist nur fuer Katholiken ziemlich schwerwiegend?",
+          "question_text_en": "What is quite serious only for Catholics?",
+          "options": {
+            "A": "Papstversehen",
+            "B": "Kardinalfehler",
+            "C": "Kaplanpanne",
+            "D": "Vikarfauxpas"
+          },
+          "correct_answer": "B",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 13,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was liess Gott der Bibel zufolge vom Himmel fallen?",
+          "question_text_en": "What, according to the Bible, did God let fall from heaven?",
+          "options": {
+            "A": "Lasagne",
+            "B": "Kaesecracker",
+            "C": "Sushi",
+            "D": "Manna"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wird der Elfmeter verwandelt, ist der Ball aus Sicht des Torhueters sozusagen ...?",
+          "question_text_en": "If the penalty is scored, the ball is, from the goalkeeper's point of view, so to speak ...?",
+          "options": {
+            "A": "ungehalten",
+            "B": "empoert",
+            "C": "veraergert",
+            "D": "aufgebracht"
+          },
+          "correct_answer": "A",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 14,
+      "questions_answered": 15,
+      "final_earnings": 1000000,
+      "eliminated_at_level": null,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was liegt dicht an dicht in der Dose?",
+          "question_text_en": "What lies close together in the can?",
+          "options": {
+            "A": "Benzinforellen",
+            "B": "Dieselmakrelen",
+            "C": "oelsardinen",
+            "D": "Petroleumgarnelen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Artikel wie Garn, Knoepfe und Naehnadeln nennt man ...?",
+          "question_text_en": "Items like thread, buttons, and sewing needles are called ...?",
+          "options": {
+            "A": "Dickdinger",
+            "B": "Duennartikel",
+            "C": "Langprodukte",
+            "D": "Kurzwaren"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Dein Wort in Gottes ...?",
+          "question_text_en": "Your word in God's ...?",
+          "options": {
+            "A": "Ohr",
+            "B": "Auge",
+            "C": "Hand",
+            "D": "Nase"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Christoph Kolumbus erreichte Amerika in welchem Jahr?",
+          "question_text_en": "Christopher Columbus reached America in which year?",
+          "options": {
+            "A": "1357",
+            "B": "1492",
+            "C": "1578",
+            "D": "1671"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Zum UNESCO-Weltkulturerbe gehoert die Altstadt von ...?",
+          "question_text_en": "Is the old town of ... a UNESCO World Heritage Site?",
+          "options": {
+            "A": "Kiess",
+            "B": "Sant",
+            "C": "Split",
+            "D": "Asfalt"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Der grosse rote Punkt auf dem Jupiter ist ein ...?",
+          "question_text_en": "The Great Red Spot on Jupiter is a ...?",
+          "options": {
+            "A": "Wirbelsturm",
+            "B": "Vulkankrater",
+            "C": "Meteoriteneinschlag",
+            "D": "oxidiertes Gebiet"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "In welcher Form wird von Haendlern in Deutschland der meiste Kaffee verkauft?",
+          "question_text_en": "In what form is most coffee sold by retailers in Germany?",
+          "options": {
+            "A": "gemahlener Filterkaffee",
+            "B": "Kapseln",
+            "C": "Kaffepads",
+            "D": "ganze Bohnen"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Was isst man in Frankreich, wenn man 'barbe a papa', also 'Papas Bart' verpeist?",
+          "question_text_en": "What does one eat in France when one eats 'barbe a papa', i.e., 'Papa's beard'?",
+          "options": {
+            "A": "Zuckerwatte",
+            "B": "Softeis",
+            "C": "Laktritzschnecke",
+            "D": "Popcorn"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Fuer die Hauptrolle in welchem Film wurde Natalie Portman mit dem Oscar ausgezeichnet?",
+          "question_text_en": "For the lead role in which film was Natalie Portman awarded the Oscar?",
+          "options": {
+            "A": "Blue Bird",
+            "B": "White Eagle",
+            "C": "Black Swan",
+            "D": "Pink Duck"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Welche Stadt ist laut Nibelungenlied die Heimat des Helden Siegfried?",
+          "question_text_en": "Which city is, according to the Nibelungenlied, the home of the hero Siegfried?",
+          "options": {
+            "A": "Trier",
+            "B": "Koblenz",
+            "C": "Xanten",
+            "D": "Speyer"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Wer war bereits im zarten Alter von 14 Jahren erstmals fuer den Oscar nominiert?",
+          "question_text_en": "Who was first nominated for an Oscar at the tender age of 14?",
+          "options": {
+            "A": "Meryl Streep",
+            "B": "Angelina Jolie",
+            "C": "Jodie Foster",
+            "D": "Scarlett Johansson"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "Wer war die erste Frau, die mit dem Nobelpreis ausgezeichnet wurde?",
+          "question_text_en": "Who was the first woman to be awarded the Nobel Prize?",
+          "options": {
+            "A": "Bertha von Suttner",
+            "B": "Selma Lagerhoef",
+            "C": "Else Lasker-Schueler",
+            "D": "Marie Curie"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "In welchem Jahr wurde der letzte Kaiser von China gestuerzt?",
+          "question_text_en": "In which year was the last emperor of China overthrown?",
+          "options": {
+            "A": "1909",
+            "B": "1911",
+            "C": "1913",
+            "D": "1915"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 125000
+        },
+        {
+          "question_level": 14,
+          "question_text": "Am 31. Dezember feiern wir Silvester, weil der gleichnamige Heilige an diesem Tag ...?",
+          "question_text_en": "On December 31 we celebrate New Year’s Eve, because the namesake saint on this day ...?",
+          "options": {
+            "A": "Geburtstag hat",
+            "B": "Papst wurde",
+            "C": "gestorben ist",
+            "D": "getauft wurde"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500000
+        },
+        {
+          "question_level": 15,
+          "question_text": "Wie heisst eine Metro-Station in Paris?",
+          "question_text_en": "What is the name of a metro station in Paris?",
+          "options": {
+            "A": "Kochstreit",
+            "B": "Kellnerfehde",
+            "C": "Oberkampf",
+            "D": "Gastschlacht"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 1000000
+        }
+      ]
+    },
+    {
+      "program_id": 15,
+      "questions_answered": 5,
+      "final_earnings": 500,
+      "eliminated_at_level": 6,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Seit jeher haben die meisten ...?",
+          "question_text_en": "Since time immemorial most have ...?",
+          "options": {
+            "A": "Dober Maenner",
+            "B": "Cocker Spaniels",
+            "C": "Schaefer Hunde",
+            "D": "Riesen Schnauzer"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Stille Wasser sind ...?",
+          "question_text_en": "Still waters are ...?",
+          "options": {
+            "A": "tief",
+            "B": "niedrig",
+            "C": "kalt",
+            "D": "warm"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Was spielen Mannschaften wie die Braunschweig Lions und Hamburger Blue Devils",
+          "question_text_en": "What do teams like the Braunschweig Lions and Hamburg Blue Devils play",
+          "options": {
+            "A": "American Football",
+            "B": "Italian Baseball",
+            "C": "Australien Basketball",
+            "D": "Mexican Volleyball"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Die frueheren groesseren 'Handys' hiessen wie?",
+          "question_text_en": "What were the earlier larger 'cell phones' called?",
+          "options": {
+            "A": "Knochen",
+            "B": "Zungen",
+            "C": "Zehen",
+            "D": "Beine"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Was kann man nur in den letzten 3 Werktagen im Jahr kaufen?",
+          "question_text_en": "What can only be bought in the last 3 working days of the year?",
+          "options": {
+            "A": "Sekt",
+            "B": "Spielzeug",
+            "C": "Silvesterfeuerwerk",
+            "D": "Gluecksbringer"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wie heissen die Holzstaebe vom Barren?",
+          "question_text_en": "What are the wooden bars of the parallel bars called?",
+          "options": {
+            "A": "Holz",
+            "B": "Stab",
+            "C": "Holm",
+            "D": "Barren"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 1000
+        }
+      ]
+    },
+    {
+      "program_id": 16,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Bei welcher Mondphase heulen in Horrorfilmen Werwoefle den Mond an?",
+          "question_text_en": "During which lunar phase do werewolves howl at the moon in horror movies?",
+          "options": {
+            "A": "Abnehmender Mond",
+            "B": "Neumond",
+            "C": "Zunehmender Mond",
+            "D": "Vollmond"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wie nennt man einen langen, schmalen Teppich?",
+          "question_text_en": "What do you call a long, narrow carpet?",
+          "options": {
+            "A": "Springer",
+            "B": "Laeufer",
+            "C": "Bauer",
+            "D": "Turm"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Wer moderierte vor Guenther Jauch die Show 'Wer wird Millionaer?'?",
+          "question_text_en": "Who hosted the show 'Who Wants to Be a Millionaire?' before Guenther Jauch?",
+          "options": {
+            "A": "Joerg Pilawa",
+            "B": "Thomas Gottschalk",
+            "C": "Johannes B. Kerner",
+            "D": "Guenther Jauch moderiert seit Folge 1"
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 17,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Als die Sau wieder geferkelt hatte, gab es auf dem Bauernhof noch ...?",
+          "question_text_en": "When the sow had given birth to piglets again, was there still ... on the farm?",
+          "options": {
+            "A": "seh Pferdchen",
+            "B": "aich Hoernchen",
+            "C": "mehr Schweinchen",
+            "D": "kwietsche Entchen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Werden Bundesliga-Fussballer auf den Platz gefuehrt, bringt man sie auf jeden Fall zum ...?",
+          "question_text_en": "When Bundesliga footballers are led onto the pitch, you definitely bring them to ...?",
+          "options": {
+            "A": "Toben",
+            "B": "Schaeumen",
+            "C": "Ausrasten",
+            "D": "Rasen"
+          },
+          "correct_answer": "D",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 18,
+      "questions_answered": 3,
+      "final_earnings": 200,
+      "eliminated_at_level": 4,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Der Eiffelturm steht in ...?",
+          "question_text_en": "The Eiffel Tower is located in ...?",
+          "options": {
+            "A": "Florenz",
+            "B": "Paris",
+            "C": "London",
+            "D": "Berlin"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "In oesterreich sagt man nicht 'Kasse' sondern ...?",
+          "question_text_en": "In Austria one doesn't say 'Kasse' but rather ...?",
+          "options": {
+            "A": "Kassa",
+            "B": "Kassi",
+            "C": "Kasso",
+            "D": "Kassu"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "In welchem Land wird der Grossteil des weltweiten Feuerwerks hergestellt?",
+          "question_text_en": "In which country is the majority of the world's fireworks produced?",
+          "options": {
+            "A": "Kasachstan",
+            "B": "Russland",
+            "C": "China",
+            "D": "Australien"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "'Schau mir in die Augen, kleines' heisst es im Film ...?",
+          "question_text_en": "'Look me in the eyes, little one' it says in the film ...?",
+          "options": {
+            "A": "Casablanca",
+            "B": "Star Wars I",
+            "C": "Zurueck in die Zukunft II",
+            "D": "Natuerlich blond"
+          },
+          "correct_answer": "A",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 300
+        }
+      ]
+    },
+    {
+      "program_id": 19,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was sagt man einem italinenischen Koch wenn man etwas 'mit Biss' moechte?",
+          "question_text_en": "What do you say to an Italian chef when you want something 'al dente'?",
+          "options": {
+            "A": "al dente",
+            "B": "al ice",
+            "C": "al pacino",
+            "D": "al bino"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Die Puppen die bei simulierten Autounfaellen den Kopf hinhalten muessen heissen ...?",
+          "question_text_en": "The dolls that have to take the impact in simulated car accidents are called ...?",
+          "options": {
+            "A": "Blondies",
+            "B": "Dummies",
+            "C": "Hirnies",
+            "D": "Doofies"
+          },
+          "correct_answer": "B",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 20,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was blueht manchem im Gesicht?",
+          "question_text_en": "What blooms on some people's faces?",
+          "options": {
+            "A": "Rose",
+            "B": "Tulpe",
+            "C": "Veilchen",
+            "D": "Primel"
+          },
+          "correct_answer": "C",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 21,
+      "questions_answered": 3,
+      "final_earnings": 200,
+      "eliminated_at_level": 4,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "'Arm wie eine ...'?",
+          "question_text_en": "'Poor as a ...'?",
+          "options": {
+            "A": "Kirchenlaus",
+            "B": "Kirchentaube",
+            "C": "Kirchenmaus",
+            "D": "Kirchenwespe"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Welche Laeuse gibt es in der Weihnachtszeit?",
+          "question_text_en": "Which lice are there during the Christmas season?",
+          "options": {
+            "A": "Maxilaeuse",
+            "B": "Leolaeuse",
+            "C": "Andilaeuse",
+            "D": "Nikolaeuse"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "In welchem Land findet das 'Hahnenkammrennen' statt?",
+          "question_text_en": "In which country does the 'Hahnenkamm race' take place?",
+          "options": {
+            "A": "Deutschland",
+            "B": "Schweiz",
+            "C": "oesterreich",
+            "D": "Italien"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Ein Evergreen von Udo Juergens heisst 'Aber bitte mit ...'?",
+          "question_text_en": "An evergreen by Udo Juergens is called 'But please with ...'?",
+          "options": {
+            "A": "Gummibaerchen",
+            "B": "Sahne",
+            "C": "Schokostraeussel",
+            "D": "Chips"
+          },
+          "correct_answer": "B",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 300
+        }
+      ]
+    },
+    {
+      "program_id": 22,
+      "questions_answered": 15,
+      "final_earnings": 1000000,
+      "eliminated_at_level": null,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Die Erde ist auch bekannt als ...?",
+          "question_text_en": "The Earth is also known as ...?",
+          "options": {
+            "A": "gruener Planet",
+            "B": "roter Planet",
+            "C": "blauer Planet",
+            "D": "gelber Planet"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Was braucht der PC?",
+          "question_text_en": "What does the PC need?",
+          "options": {
+            "A": "Betriebsrat",
+            "B": "Betriebsnudel",
+            "C": "Betriebssystem",
+            "D": "Betriebsklima"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Womit kann man schiessen?",
+          "question_text_en": "What can you shoot with?",
+          "options": {
+            "A": "Flasche",
+            "B": "Buechse",
+            "C": "Schachtel",
+            "D": "Kanister"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Aus den Kernen welcher Frucht kann man Juckpulver herstellen?",
+          "question_text_en": "From the seeds of which fruit can itching powder be made?",
+          "options": {
+            "A": "Kirsche",
+            "B": "Granatapfel",
+            "C": "Hagebutte",
+            "D": "Pfirsich"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "In welchem Jahr begann der erste Weltkrieg?",
+          "question_text_en": "In which year did the First World War begin?",
+          "options": {
+            "A": "1914",
+            "B": "1918",
+            "C": "1939",
+            "D": "1945"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wie heisst die Hauptstadt von China?",
+          "question_text_en": "What is the capital of China called?",
+          "options": {
+            "A": "Wuhan",
+            "B": "Peking",
+            "C": "Shanghai",
+            "D": "Shenzhen"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Die TV-Serie 'Loewengrube - Die Grandauers und ihre Zeit' spielt in der Stadt ...?",
+          "question_text_en": "The TV series 'Loewengrube - The Grandauers and Their Times' is set in the city ...?",
+          "options": {
+            "A": "Nuernberg",
+            "B": "Straubing",
+            "C": "Augsburg",
+            "D": "Muenchen"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Der Stern 'Beteigeuze' ist im Sternbild ...?",
+          "question_text_en": "The star 'Betelgeuse' is in the constellation ...?",
+          "options": {
+            "A": "Luftpumpe",
+            "B": "Rabe",
+            "C": "Kleiner Baer",
+            "D": "Orion"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Das Staedtchen 'Kamenize' ist fester Bestandteil der Serie ...?",
+          "question_text_en": "The small town 'Kamenize' is an integral part of the series ...?",
+          "options": {
+            "A": "Dahoam is Dahoam",
+            "B": "Sturm der Liebe",
+            "C": "Die Besucher",
+            "D": "Die Maerchenbraut"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Wie hiess die erste Frau von Heinrich VIII?",
+          "question_text_en": "What was the name of Henry VIII's first wife?",
+          "options": {
+            "A": "Katharina von Aragon",
+            "B": "Anne Boleyn",
+            "C": "Jane Seymour",
+            "D": "Anna von Kleve"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Die Titelmusik zum Film Titanic heisst 'My Heart will go on' und wurde gesungen von ...?",
+          "question_text_en": "The theme song for the film Titanic is called 'My Heart will go on' and was sung by ...?",
+          "options": {
+            "A": "Adele",
+            "B": "Rihanna",
+            "C": "Celine Dion",
+            "D": "Whitney Houston"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "Welchen Beruf uebte Ronald Reagon aus, bevor er Praesident der Vereinigten Staaten wurde?",
+          "question_text_en": "What profession did Ronald Reagon practice before he became President of the United States?",
+          "options": {
+            "A": "Schauspieler",
+            "B": "Wissenschaftler",
+            "C": "Historiker",
+            "D": "Baecker"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "Was ist 'Big John' im Film 'Zum Teufel mit den Millionen'?",
+          "question_text_en": "What is 'Big John' in the film 'To Hell with the Millions'?",
+          "options": {
+            "A": "Ein Verbrecher",
+            "B": "Eine Firma",
+            "C": "Ein Pferd",
+            "D": "Ein Auto"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 125000
+        },
+        {
+          "question_level": 14,
+          "question_text": "Der deutsche Begriff fuer das englische Wort 'crank' ist nicht 'krank' sondern ...?",
+          "question_text_en": "The German term for the English word 'crank' is not 'krank' but rather ...?",
+          "options": {
+            "A": "Kran",
+            "B": "Schraube",
+            "C": "Kurbel",
+            "D": "Schalter"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500000
+        },
+        {
+          "question_level": 15,
+          "question_text": "In welchem Jahr wurde Herbert Hoover Praesident der Vereinigten Staaten?",
+          "question_text_en": "In which year did Herbert Hoover become President of the United States?",
+          "options": {
+            "A": "1925",
+            "B": "1929",
+            "C": "1933",
+            "D": "1937"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 1000000
+        }
+      ]
+    },
+    {
+      "program_id": 23,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Lautmalerisch steht fuer Niesen ...?",
+          "question_text_en": "Onomatopoeically stands for sneezing ...?",
+          "options": {
+            "A": "hadschi!",
+            "B": "halef!",
+            "C": "omar!",
+            "D": "ben!"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wer moderiert die Quizshow 'Wer weiss denn sowas' aus der ARD?",
+          "question_text_en": "Who hosts the quiz show 'Wer weiss denn sowas' on ARD?",
+          "options": {
+            "A": "Kai Pflaume",
+            "B": "Alexander Bommes",
+            "C": "Joerg Pilawa",
+            "D": "Thomas Gottsschalk"
+          },
+          "correct_answer": "A",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 24,
+      "questions_answered": 5,
+      "final_earnings": 500,
+      "eliminated_at_level": 6,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was schwaecht den Koerper?",
+          "question_text_en": "What weakens the body?",
+          "options": {
+            "A": "Kochplattenfieber",
+            "B": "Bakterienbackofen",
+            "C": "Entzuendungsherd",
+            "D": "Mikrowellenseuche"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wofuer gibt's Cash?",
+          "question_text_en": "What's there cash for?",
+          "options": {
+            "A": "Lachskante",
+            "B": "Dorschwinkel",
+            "C": "Aalknick",
+            "D": "Barscheck"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "In welchem Bundesland wird die TV-Serie 'Die Rosenheim-Cops' gedreht?",
+          "question_text_en": "In which federal state is the TV series 'Die Rosenheim-Cops' filmed?",
+          "options": {
+            "A": "Bayern",
+            "B": "Baden-Wuerttemberg",
+            "C": "Hessen",
+            "D": "Thueringen"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Welches Ereigniss loeste die Ermordung Franz Ferdinands' aus?",
+          "question_text_en": "Which event did the assassination of Franz Ferdinand trigger?",
+          "options": {
+            "A": "1. Weltkrieg",
+            "B": "2. Weltkrieg",
+            "C": "Korea-Kreig",
+            "D": "Vietnam-Krieg"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Von welchem Land wurde Tunesien unabhaengig?",
+          "question_text_en": "From which country did Tunisia become independent?",
+          "options": {
+            "A": "Deutschland",
+            "B": "Frankreich",
+            "C": "Polen",
+            "D": "Grossbritanien"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "In oesterreich sind ein Zentner 100 kg, in Deutschland sind es ...?",
+          "question_text_en": "In Austria a Zentner is 100 kg, in Germany it is ...?",
+          "options": {
+            "A": "20 kg",
+            "B": "50 kg",
+            "C": "55 kg",
+            "D": "150 kg"
+          },
+          "correct_answer": "B",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 1000
+        }
+      ]
+    },
+    {
+      "program_id": 25,
+      "questions_answered": 7,
+      "final_earnings": 2000,
+      "eliminated_at_level": 8,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wie viele Luftballons spielen in einem Hit von Nena eine entscheidende Rolle?",
+          "question_text_en": "How many balloons play a decisive role in a hit by Nena?",
+          "options": {
+            "A": "66",
+            "B": "77",
+            "C": "88",
+            "D": "99"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wie nennt man etwas, dass zur Erinnerung an bestimmte Ereignisse oder Personen geschaffen wurde",
+          "question_text_en": "What do you call something that was created to commemorate certain events or people",
+          "options": {
+            "A": "Hoermal",
+            "B": "Siehmal",
+            "C": "Fuehlmal",
+            "D": "Denkmal"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Wen gibt es wirklich?",
+          "question_text_en": "Who really exists?",
+          "options": {
+            "A": "Schraubenhai",
+            "B": "Bohrerhai",
+            "C": "Hammerhai",
+            "D": "Zangenhai"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Welches dieser Woerter heisst auf Englisch 'Hochzeit'?",
+          "question_text_en": "Which of these words means 'wedding' in English?",
+          "options": {
+            "A": "Pankow",
+            "B": "Neukoelln",
+            "C": "Wedding",
+            "D": "Tempelhof"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Welche beiden Buchstaben muss man im englischen Wort fuer 'oesterreich' einsetzen, um das englische Wort fuer 'Australien' zu bekommen?",
+          "question_text_en": "Which two letters must be inserted into the English word for 'Austria' to get the English word for 'Australia'?",
+          "options": {
+            "A": "A & B",
+            "B": "L & A",
+            "C": "B & L",
+            "D": "C & D"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wer mit dem Ausflugsboot mitten durch das Herz Berlins faehrt, befindet sich auf der ...?",
+          "question_text_en": "Whoever travels by sightseeing boat right through the heart of Berlin is on the ...?",
+          "options": {
+            "A": "Spree",
+            "B": "Alster",
+            "C": "Isar",
+            "D": "Mosel"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Wer an einer Glutenunvertraeglichkeit leidet, sollte ...?",
+          "question_text_en": "Anyone suffering from gluten intolerance should ...?",
+          "options": {
+            "A": "nie an Rosinen riechen",
+            "B": "auf Alkohol verzichten",
+            "C": "kein Weissbrot essen",
+            "D": "nicht zu viel fernsehen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Den wievielten Hochzeitstag feiert ein Paar, wenn es die Rosenhochzeit feiert?",
+          "question_text_en": "Which wedding anniversary is a couple celebrating when they celebrate the Rosenhochzeit?",
+          "options": {
+            "A": "1.",
+            "B": "5.",
+            "C": "8.",
+            "D": "10."
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 4000
+        }
+      ]
+    },
+    {
+      "program_id": 26,
+      "questions_answered": 8,
+      "final_earnings": 4000,
+      "eliminated_at_level": 9,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Ich komme schon zum x-ten Mal an derselben Stelle vorbei, weil ich seit Stunden im ...?",
+          "question_text_en": "I keep passing the same spot for the umpteenth time, because I've been in the ... for hours?",
+          "options": {
+            "A": "Stoff wechsel",
+            "B": "Ver dauung",
+            "C": "Immun system",
+            "D": "Kreis lauf"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wenn einem etwas einfach nicht einfallen will, sagt man oefters 'es liegt mir auf der ...'?",
+          "question_text_en": "When something just won't come to mind, people often say 'it's on the tip of my ...'?",
+          "options": {
+            "A": "Nase",
+            "B": "Zunge",
+            "C": "Hand",
+            "D": "Schulter"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Wie heisst eine grosse portugiesische Hafenstadt?",
+          "question_text_en": "What is a large Portuguese port city called?",
+          "options": {
+            "A": "Paket",
+            "B": "Post",
+            "C": "Porto",
+            "D": "Paeckchen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Wo 'sieht oft alles ganz anders aus'?",
+          "question_text_en": "Where 'does everything often look completely different'?",
+          "options": {
+            "A": "in der Kanlei",
+            "B": "in der Werkstatt",
+            "C": "in der Praxis",
+            "D": "in der Kantine"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Aus welchen Fruechten wird Calvados hergestellt?",
+          "question_text_en": "From which fruits is Calvados made?",
+          "options": {
+            "A": "Birne",
+            "B": "Apfel",
+            "C": "Kirsche",
+            "D": "Pfirsich"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Welche Farbe hat beim Billard die Kugel mit der Nummer 8?",
+          "question_text_en": "What color is the ball with the number 8 in billiards?",
+          "options": {
+            "A": "blau",
+            "B": "rot",
+            "C": "gelb",
+            "D": "schwarz"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Was ist keine Winkelfunktion?",
+          "question_text_en": "What is not a trigonometric function?",
+          "options": {
+            "A": "Sinus",
+            "B": "Kosinus",
+            "C": "Tangens",
+            "D": "Numerus"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Wann war die behruemte 'Schlacht von Hastings'?",
+          "question_text_en": "When was the famous 'Battle of Hastings'?",
+          "options": {
+            "A": "966",
+            "B": "1066",
+            "C": "1166",
+            "D": "1266"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Was ist das Zunftzeichen von Baeckereien?",
+          "question_text_en": "What is the guild sign of bakeries?",
+          "options": {
+            "A": "Croissant",
+            "B": "Brezel",
+            "C": "Semmel",
+            "D": "Ofen"
+          },
+          "correct_answer": "B",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 8000
+        }
+      ]
+    },
+    {
+      "program_id": 27,
+      "questions_answered": 1,
+      "final_earnings": 50,
+      "eliminated_at_level": 2,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Manchmal sieht man den Wald vor lauter...?",
+          "question_text_en": "Sometimes you can't see the forest for the...?",
+          "options": {
+            "A": "Baeume nicht",
+            "B": "aepfel nicht",
+            "C": "Straeuchern nicht",
+            "D": "Moosen nicht"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Was ist keine Blutgruppe?",
+          "question_text_en": "What is not a blood group?",
+          "options": {
+            "A": "0",
+            "B": "A",
+            "C": "B",
+            "D": "C"
+          },
+          "correct_answer": "C",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 100
+        }
+      ]
+    },
+    {
+      "program_id": 28,
+      "questions_answered": 5,
+      "final_earnings": 500,
+      "eliminated_at_level": 6,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Redensartlich sind intelligente Menschen nicht ...?",
+          "question_text_en": "As the saying goes, intelligent people aren't ...?",
+          "options": {
+            "A": "mit dem Fuss umgeknickt",
+            "B": "am Hintern gelandet",
+            "C": "auf den Kopf gefallen",
+            "D": "aufs Knie gestuerzt"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Einen Jaeger oder Foerster bezeichnet man scherzhaft auch als ...?",
+          "question_text_en": "One jokingly refers to a hunter or forester as ...?",
+          "options": {
+            "A": "Schwarzkittel",
+            "B": "Blaumann",
+            "C": "Rotkehlchen",
+            "D": "Gruenrock"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Statt die 'Daumen zu druecken' haelt der Englaender seine ...?",
+          "question_text_en": "Instead of 'pressing his thumbs' the Englishman holds his ...?",
+          "options": {
+            "A": "feet mixed",
+            "B": "toes touched",
+            "C": "hands snapped",
+            "D": "fingers crossed"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Was findet man meistens an Goldschmuck?",
+          "question_text_en": "What is usually found on gold jewelry?",
+          "options": {
+            "A": "Radiergummi",
+            "B": "Stempel",
+            "C": "Spitzer",
+            "D": "Locher"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Farblich gesehen erinnert der im Trend liegende Matcha-Tee an ...?",
+          "question_text_en": "Color-wise, the trendy matcha tea reminds one of ...?",
+          "options": {
+            "A": "Garfield",
+            "B": "Batman",
+            "C": "Shrek",
+            "D": "Snoopy"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Wobei handelt es sich um ein Verb?",
+          "question_text_en": "Which one is a verb?",
+          "options": {
+            "A": "tarife",
+            "B": "gebuehren",
+            "C": "geldbetrag",
+            "D": "endsumme"
+          },
+          "correct_answer": "B",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 1000
+        }
+      ]
+    },
+    {
+      "program_id": 29,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wo koennen verloren gegangene Wertsachen wieder abgeholt werden?",
+          "question_text_en": "Where can lost valuables be retrieved?",
+          "options": {
+            "A": "Schatzkammer",
+            "B": "Fundbuero",
+            "C": "Schmuckkaestchen",
+            "D": "Bernsteinzimmer"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wer ist geizig?",
+          "question_text_en": "Who is stingy?",
+          "options": {
+            "A": "Markdachser",
+            "B": "Groschenlachser",
+            "C": "Pfennigfuchser",
+            "D": "Euroluchser"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "In welcher Stadt steht die 'Davidwache'?",
+          "question_text_en": "In which city is the 'Davidwache' located?",
+          "options": {
+            "A": "Hamburg",
+            "B": "Koeln",
+            "C": "Muenchen",
+            "D": "Berlin"
+          },
+          "correct_answer": "A",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 30,
+      "questions_answered": 3,
+      "final_earnings": 200,
+      "eliminated_at_level": 4,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Woraus werden in der Regel keine Moebel gefertigt?",
+          "question_text_en": "What is furniture usually not made of?",
+          "options": {
+            "A": "Fichtenholz",
+            "B": "Buchenholz",
+            "C": "Eichenholz",
+            "D": "Nudelholz"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Im Wiener Prater steht seit 1897 nachweislich ein ...?",
+          "question_text_en": "In the Vienna Prater, a ... has verifiably stood since 1897?",
+          "options": {
+            "A": "Fahrrad",
+            "B": "Motorrad",
+            "C": "Riesenrad",
+            "D": "Dreirad"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Was wird schon mal von einer Marktfrau verlangt, wenn es um Kraeuter geht?",
+          "question_text_en": "What is sometimes asked by a market woman when it comes to herbs?",
+          "options": {
+            "A": "Sitz",
+            "B": "Platz",
+            "C": "Fass",
+            "D": "Beifuss"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Wobei handelt es sich um ein Saiteninstrument?",
+          "question_text_en": "Which of the following is a string instrument?",
+          "options": {
+            "A": "Reissbrett",
+            "B": "Sprungbrett",
+            "C": "Hackbrett",
+            "D": "Buegelbrett"
+          },
+          "correct_answer": "C",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 300
+        }
+      ]
+    },
+    {
+      "program_id": 31,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Redselige Leute plaudern gerne aus dem ...?",
+          "question_text_en": "Talkative people like to spill the beans ...?",
+          "options": {
+            "A": "Oberstuebchen",
+            "B": "Vogelhaeuschen",
+            "C": "Naehkaestchen",
+            "D": "Millkaennchen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 32,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Welche 'handwerkliche' Fertigkeit beherrschen Schnarcher im Schlaf?",
+          "question_text_en": "Which 'craft' skill do snorers master in their sleep?",
+          "options": {
+            "A": "hobeln",
+            "B": "fraesen",
+            "C": "schnitzen",
+            "D": "saegen"
+          },
+          "correct_answer": "D",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 33,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Beruehmt und beruechtigt waren die Wikinger im fruehen Mittelalter wegen ihrer ...?",
+          "question_text_en": "The Vikings were famous and infamous in the early Middle Ages because of their ...?",
+          "options": {
+            "A": "Elektroautos",
+            "B": "Lastenfahrraeder",
+            "C": "Raubzuege",
+            "D": "Omnibusse"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Neuerungen sorgen im Idealfall fuer ...?",
+          "question_text_en": "Innovations ideally lead to ...?",
+          "options": {
+            "A": "kalte Brisen",
+            "B": "frischen Wind",
+            "C": "heftige Stuerme",
+            "D": "starke Orkane"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Ein Lockenwickler ist sozusagen ...?",
+          "question_text_en": "A hair curler is, so to speak, ...?",
+          "options": {
+            "A": "eine Hauptrolle",
+            "B": "eine Felhbesetzung",
+            "C": "ein Lichtdouble",
+            "D": "ein Nebendarsteller"
+          },
+          "correct_answer": "A",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 34,
+      "questions_answered": 5,
+      "final_earnings": 500,
+      "eliminated_at_level": 6,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Der Name welcher Stadt klingt wie eine Arbeitsaufforderung am Bauernhof?",
+          "question_text_en": "Which city's name sounds like a work instruction on the farm?",
+          "options": {
+            "A": "Stams!",
+            "B": "Linz!",
+            "C": "Imst!",
+            "D": "Melk!"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Das Ende eines Funkspruchs signalisiert man mit '...'?",
+          "question_text_en": "The end of a radio transmission is signaled with '...'?",
+          "options": {
+            "A": "somewhere",
+            "B": "over",
+            "C": "the",
+            "D": "rainbow"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Auf welche Wetterlage laesst 'das himmlische Kind' in Haensel und Gretel' schliessen?",
+          "question_text_en": "What weather condition does 'the heavenly child' in Haensel und Gretel' suggest?",
+          "options": {
+            "A": "windig",
+            "B": "sonnig",
+            "C": "regnerisch",
+            "D": "wechselhaft"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Eine x-,eine y-Achse und zwei Pfeile auf ein Blatt Papier gezeichnet, und schon hat man ein KoSy mit",
+          "question_text_en": "An x-,a y-axis and two arrows drawn on a sheet of paper, and already you have a KoSy with",
+          "options": {
+            "A": "einer Hyperbel",
+            "B": "zwei Tangenten",
+            "C": "drei Amplituden",
+            "D": "vier Quadranten"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Puck, mit dem die Biene Maja Abenteuer bei den Menschen erlebt, ist eine ...?",
+          "question_text_en": "Puck, with whom Maya the Bee has adventures among humans, is a ...?",
+          "options": {
+            "A": "Stubenfliege",
+            "B": "Kellerassel",
+            "C": "Kuechenschabe",
+            "D": "Hausstaubmilbe"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Worin wird Bier serviert?",
+          "question_text_en": "What is beer served in?",
+          "options": {
+            "A": "Pilslatte",
+            "B": "Exportstaender",
+            "C": "Weizenstab",
+            "D": "Koelschstange"
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 1000
+        }
+      ]
+    },
+    {
+      "program_id": 35,
+      "questions_answered": 8,
+      "final_earnings": 4000,
+      "eliminated_at_level": 9,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Beim schachspielen kommt es an auf die richtigen ...?",
+          "question_text_en": "When playing chess it comes down to the right ...?",
+          "options": {
+            "A": "Modellautos",
+            "B": "Holzeisenbahnen",
+            "C": "Tretroller",
+            "D": "Spielzuege"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wer heute lieber seine Freizeit geniesst, laesst sie Arbeit einfach einmal ...?",
+          "question_text_en": "Who today would rather enjoy their free time, simply lets the work slide for once ...?",
+          "options": {
+            "A": "rennen",
+            "B": "eilen",
+            "C": "sausen",
+            "D": "hetzen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Bevor die alte Kommode im Auktionshaus zur Versteigerung kommt, wird sie von Experten begutachtet und dann ...?",
+          "question_text_en": "Before the old dresser goes up for auction at the auction house, it is appraised by experts and then ...?",
+          "options": {
+            "A": "verehrt",
+            "B": "bewundert",
+            "C": "gewuerdigt",
+            "D": "geschaetzt"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "In Goethes 'Zauberlehrling' sollen dem Titelhelden die Geister helfen - und zwar beim ...?",
+          "question_text_en": "In Goethe's 'The Sorcerer's Apprentice' the spirits are supposed to help the title hero - namely with ...?",
+          "options": {
+            "A": "Wasserholen",
+            "B": "Vokabellernen",
+            "C": "Brotbacken",
+            "D": "Hemdenbuegeln"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Was steht - wie der Name schon sagt - bei einem heliozentrischen System im Mittelpunkt?",
+          "question_text_en": "What is - as the name suggests - at the center of a heliocentric system?",
+          "options": {
+            "A": "Atomkern",
+            "B": "Marktplatz",
+            "C": "Sonne",
+            "D": "die eigene Person"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Das Klimakonzept der Europaeischen Kommission heisst ...?",
+          "question_text_en": "The climate concept of the European Commission is called ...?",
+          "options": {
+            "A": "Greencard",
+            "B": "Green Deal",
+            "C": "Greenhorn",
+            "D": "Greenpeace"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Was hat sicherlich fast jeder oesterreicher in der Kueche?",
+          "question_text_en": "What does almost every Austrian certainly have in the kitchen?",
+          "options": {
+            "A": "Deserttruhe",
+            "B": "Vremebox",
+            "C": "Eiskasten",
+            "D": "Schokoladenkiste"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Auf einem Odontologen-Kongress kreisen die Themen um ...?",
+          "question_text_en": "At an odontologists' congress, the topics revolve around ...?",
+          "options": {
+            "A": "Augen",
+            "B": "Ohren",
+            "C": "Zaehne",
+            "D": "Nasen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Ernie und Bert sind populaere Beispiele fuer sogennante ...?",
+          "question_text_en": "Ernie and Bert are popular examples of so-called ...?",
+          "options": {
+            "A": "Plappermaulpuppen",
+            "B": "Breitmaulkoepfe",
+            "C": "Klappmaulfiguren",
+            "D": "Schleckermaulmarionetten"
+          },
+          "correct_answer": "C",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 8000
+        }
+      ]
+    },
+    {
+      "program_id": 36,
+      "questions_answered": 5,
+      "final_earnings": 500,
+      "eliminated_at_level": 6,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Das menschliche Grosshirn aehnelt mit seinen zwei Haelften und den Falten und Furchen ...?",
+          "question_text_en": "The human cerebrum, with its two halves and the folds and furrows ...?",
+          "options": {
+            "A": "einem Apfelbutz",
+            "B": "einer Birnenhaelfte",
+            "C": "einer Pfirsichspalte",
+            "D": "einem Walnusskern"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Eine Abweichung von der biologischen Norm bezeichnet man gerne als ...?",
+          "question_text_en": "A deviation from the biological norm is commonly referred to as ...?",
+          "options": {
+            "A": "Idee des Universums",
+            "B": "Einfall der Schoepfung",
+            "C": "Laune der Natur",
+            "D": "Flause der Evolution"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Wen wird man im Stammbuch von Harry Potter nicht finden?",
+          "question_text_en": "Who will you not find in Harry Potter's autograph book?",
+          "options": {
+            "A": "Bilbo Beutlin",
+            "B": "Ron Weasly",
+            "C": "Neville Longbottom",
+            "D": "Hermine Granger"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Wovor soll die sogenannte MMR-Impfung schuetzen?",
+          "question_text_en": "What is the so-called MMR vaccination supposed to protect against?",
+          "options": {
+            "A": "Masern, Mumps, Roeteln",
+            "B": "Muecken, Motten, Ratten",
+            "C": "Martini, Mojito, Rum",
+            "D": "Mistkerle, Machos, Ruepel"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Mit 'La primavera', 'L'estate', 'L'autunno' und 'L'inverno' portraetiert Antonio Vivaldi die ...?",
+          "question_text_en": "With 'La primavera', 'L'estate', 'L'autunno' and 'L'inverno' Antonio Vivaldi portrays the ...?",
+          "options": {
+            "A": "Jahreszeiten",
+            "B": "Sternzeichen",
+            "C": "Wochentage",
+            "D": "Pizzabelaege"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Klapperschlangen zaehlen zu den ...?",
+          "question_text_en": "Rattlesnakes belong to the ...?",
+          "options": {
+            "A": "Zechenpythons",
+            "B": "Stollenboas",
+            "C": "Schachtnattern",
+            "D": "Grubenottern"
+          },
+          "correct_answer": "D",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 1000
+        }
+      ]
+    },
+    {
+      "program_id": 37,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was soll man redensartlich aus unnoetiger Sorge nicht wachsen lassen?",
+          "question_text_en": "What, idiomatically, should one not let grow out of unnecessary worry?",
+          "options": {
+            "A": "Schnurrbart",
+            "B": "langen pony",
+            "C": "graue Haare",
+            "D": "Koteletten"
+          },
+          "correct_answer": "D",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 38,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was kann man aufsetzen, um sein Bedauern auszudruecken?",
+          "question_text_en": "What can you put on to express your regret?",
+          "options": {
+            "A": "Pudelhaube",
+            "B": "Boxershorts",
+            "C": "Dackelblick",
+            "D": "Spitzenhoeschen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 39,
+      "questions_answered": 4,
+      "final_earnings": 300,
+      "eliminated_at_level": 5,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was kann man aufsetzen, um sein Bedauern auszudruecken?",
+          "question_text_en": "What can you put on to express your regret?",
+          "options": {
+            "A": "Pudelhaube",
+            "B": "Boxershorts",
+            "C": "Dackelblick",
+            "D": "Spitzenhoeschen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Eine beruehmte Zeichentrickserie heisst 'Tom und ...?'",
+          "question_text_en": "A famous cartoon series is called 'Tom and ...?'",
+          "options": {
+            "A": "Urange",
+            "B": "Jerry",
+            "C": "Cear",
+            "D": "Opple"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Was macht man, wenn man im Winter gut auf seinen Vitamin-C-Haushalt achtet?",
+          "question_text_en": "What do you do when you pay close attention to your vitamin C intake in winter?",
+          "options": {
+            "A": "auf den Ruecken legen",
+            "B": "zuruecklehnen",
+            "C": "vorbeugen",
+            "D": "zur Seite drehen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Die Habsburger hielten in Wien ...?",
+          "question_text_en": "The Habsburgs held in Vienna ...?",
+          "options": {
+            "A": "Haus",
+            "B": "Hof",
+            "C": "Huette",
+            "D": "Hotel"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Regt sich jemand sehr auf, ist er sprichwoertlich ...?",
+          "question_text_en": "If someone gets very worked up, he is proverbially ...?",
+          "options": {
+            "A": "um achtzig",
+            "B": "unter hundert",
+            "C": "auf hundertachtzig",
+            "D": "bei zweihundertzwanzig"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 500
+        }
+      ]
+    },
+    {
+      "program_id": 40,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Menschen, die sich nur schwer von ihrer Mutter loesen koennen, haengen redensartlich an ihrem ...?",
+          "question_text_en": "People who find it hard to separate from their mother are, idiomatically, hanging on her ...?",
+          "options": {
+            "A": "Hosensaum",
+            "B": "Rockzipfel",
+            "C": "Strumpfband",
+            "D": "Halstuch"
+          },
+          "correct_answer": "B",
+          "generated_answer": "D",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 41,
+      "questions_answered": 13,
+      "final_earnings": 125000,
+      "eliminated_at_level": 14,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was sollte der Jaeger nicht machen, wenn er beim Schiessen niemanden verletzen will?",
+          "question_text_en": "What should the hunter not do if he doesn't want to injure anyone while shooting?",
+          "options": {
+            "A": "Verwandte besuchen",
+            "B": "Kollegen einladen",
+            "C": "Freunde treffen",
+            "D": "Bekannte begruessen"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Wo geraet man schon mal hinein?",
+          "question_text_en": "What do you sometimes get into?",
+          "options": {
+            "A": "Drekmade",
+            "B": "Matshkaefer",
+            "C": "Schlikkakerlake",
+            "D": "Schlamassel"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Wer Krampfadern hat, bei dem ist sozusagen die ...?",
+          "question_text_en": "Anyone who has varicose veins has, so to speak, the ...?",
+          "options": {
+            "A": "Mai lant",
+            "B": "Tu rien",
+            "C": "Paler moh",
+            "D": "Vene dick"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Was taugt selbst fuer die entsprechende Zielgruppe nicht als uebernachtungsmoeglichkeit?",
+          "question_text_en": "What is not even suitable as an overnight accommodation option for the respective target group?",
+          "options": {
+            "A": "Familienhotel",
+            "B": "Beamtenpension",
+            "C": "Obdachlosenheim",
+            "D": "Jugendherberge"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 300
+        },
+        {
+          "question_level": 5,
+          "question_text": "Die Meeresschnecke 'bufonaria borisbeckeri' wurde nach welchem Sportler benannt?",
+          "question_text_en": "The sea snail 'bufonaria borisbeckeri' was named after which athlete?",
+          "options": {
+            "A": "Boris Becker",
+            "B": "Steffi Graf",
+            "C": "Franz Beckenbauer",
+            "D": "Franziska van Almsick"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 500
+        },
+        {
+          "question_level": 6,
+          "question_text": "Am 31.12. ist ...?",
+          "question_text_en": "On 31.12. is ...?",
+          "options": {
+            "A": "Silvester",
+            "B": "Sylvester",
+            "C": "Silwester",
+            "D": "Sylwester"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 1000
+        },
+        {
+          "question_level": 7,
+          "question_text": "Die Vereinten Nationen gehen davon aus, das welches Land 2030 das bevoelkerungsreichte der Welt ist?",
+          "question_text_en": "According to the United Nations, which country is expected to be the world's most populous in 2030?",
+          "options": {
+            "A": "Indien",
+            "B": "USA",
+            "C": "Russland",
+            "D": "Suedafrika"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 2000
+        },
+        {
+          "question_level": 8,
+          "question_text": "Wenn ein Mensch 90 Jahre alt wird, hat er 30 Jahre seines Lebens womit verbracht?",
+          "question_text_en": "If a person lives to be 90 years old, he has spent 30 years of his life doing what?",
+          "options": {
+            "A": "Essen",
+            "B": "Schlafen",
+            "C": "Duschen",
+            "D": "Zaehne putzen"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 4000
+        },
+        {
+          "question_level": 9,
+          "question_text": "Der wievielte Bundeskanzler der BRD ist Olaf Scholz?",
+          "question_text_en": "What number Federal Chancellor of the FRG is Olaf Scholz?",
+          "options": {
+            "A": "3.",
+            "B": "5.",
+            "C": "7.",
+            "D": "9."
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 8000
+        },
+        {
+          "question_level": 10,
+          "question_text": "Welches dieser chemischen Elemente ist kein Edelgas?",
+          "question_text_en": "Which of these chemical elements is not a noble gas?",
+          "options": {
+            "A": "Xenon",
+            "B": "Helium",
+            "C": "Kohlenstoff",
+            "D": "Neon"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 16000
+        },
+        {
+          "question_level": 11,
+          "question_text": "Welches Haustier hat Billie Eilish?",
+          "question_text_en": "What pet does Billie Eilish have?",
+          "options": {
+            "A": "Vogelspinne",
+            "B": "Kobra",
+            "C": "Kamel",
+            "D": "Hornisse"
+          },
+          "correct_answer": "A",
+          "generated_answer": "A",
+          "is_correct": true,
+          "earnings_at_level": 32000
+        },
+        {
+          "question_level": 12,
+          "question_text": "Ab wieviel Prozent der Lichtgeschwindigkeit soll man relativistisch rechnen?",
+          "question_text_en": "From what percentage of the speed of light should one use relativistic calculations?",
+          "options": {
+            "A": "5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "20%"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 64000
+        },
+        {
+          "question_level": 13,
+          "question_text": "In welchem Jahr fanden die ersten Olympischen Spiele der Antike statt?",
+          "question_text_en": "In which year did the first ancient Olympic Games take place?",
+          "options": {
+            "A": "576 v.Chr.",
+            "B": "676 v.Chr.",
+            "C": "776 v.Chr.",
+            "D": "876 v.Chr."
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 125000
+        },
+        {
+          "question_level": 14,
+          "question_text": "Von wem ist das Zitat 'Nichts ist beglueckender, als den Menschen zu finden, den man den Rest seines Lebens aergern kann'?",
+          "question_text_en": "By whom is the quote 'Nothing is more delightful than finding the person you can annoy for the rest of your life'?",
+          "options": {
+            "A": "Winston Churchill",
+            "B": "Agatha Christie",
+            "C": "Albert Einstein",
+            "D": "Marie Curie"
+          },
+          "correct_answer": "B",
+          "generated_answer": "C",
+          "is_correct": false,
+          "earnings_at_level": 500000
+        }
+      ]
+    },
+    {
+      "program_id": 42,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Wer sich unbeliebt gemacht hat, der ist ...?",
+          "question_text_en": "Whoever has made themselves unpopular, is ...?",
+          "options": {
+            "A": "nebenher",
+            "B": "mittendrin",
+            "C": "unten durch",
+            "D": "oben ohne"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 43,
+      "questions_answered": 2,
+      "final_earnings": 100,
+      "eliminated_at_level": 3,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was gehoeoert zu den Vorzuegen der meisten Fensterscheiben?",
+          "question_text_en": "What counts among the advantages of most window panes?",
+          "options": {
+            "A": "plausibel",
+            "B": "glaubhaft",
+            "C": "durchschaubar",
+            "D": "verstaendlich"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Was soll Sankt Martin der Legende nach seinem Bettler geteilt haben?",
+          "question_text_en": "According to legend, what did Saint Martin share with the beggar?",
+          "options": {
+            "A": "Gaensebraten",
+            "B": "Nachtlager",
+            "C": "Mantel",
+            "D": "Ersparnisse"
+          },
+          "correct_answer": "C",
+          "generated_answer": "C",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Liess der Eltmeterschuetze dem Torwart keine Chance, war der Schuss ...?",
+          "question_text_en": "If the penalty taker gave the goalkeeper no chance, was the shot ...?",
+          "options": {
+            "A": "inakzeptabel",
+            "B": "aus der Luft gegriffen",
+            "C": "unhaltbar",
+            "D": "unter aller Sau"
+          },
+          "correct_answer": "C",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 200
+        }
+      ]
+    },
+    {
+      "program_id": 44,
+      "questions_answered": 0,
+      "final_earnings": 0,
+      "eliminated_at_level": 1,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Was gehoert zum Schulbedarf?",
+          "question_text_en": "What counts as school supplies?",
+          "options": {
+            "A": "Borstenranzen",
+            "B": "Fellstifte",
+            "C": "Schuppenbuch",
+            "D": "Federmaeppchen"
+          },
+          "correct_answer": "D",
+          "generated_answer": "B",
+          "is_correct": false,
+          "earnings_at_level": 50
+        }
+      ]
+    },
+    {
+      "program_id": 45,
+      "questions_answered": 3,
+      "final_earnings": 200,
+      "eliminated_at_level": 4,
+      "question_results": [
+        {
+          "question_level": 1,
+          "question_text": "Geht's mit der Konjunktur abwaerts, geraten auch die Aktienkurse schon mal ins ...?",
+          "question_text_en": "If the economy is going downhill, stock prices also sometimes end up in the ...?",
+          "options": {
+            "A": "Lieseln",
+            "B": "Baerbeln",
+            "C": "Greteln",
+            "D": "Trudeln"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 50
+        },
+        {
+          "question_level": 2,
+          "question_text": "Um ein Verb handelt es sich bei ...?",
+          "question_text_en": "Which of the following is a verb ...?",
+          "options": {
+            "A": "loewen",
+            "B": "tigern",
+            "C": "leoparden",
+            "D": "pumas"
+          },
+          "correct_answer": "B",
+          "generated_answer": "B",
+          "is_correct": true,
+          "earnings_at_level": 100
+        },
+        {
+          "question_level": 3,
+          "question_text": "Bei dem Wort 'Automo' hat man den Eindruck, dass ...?",
+          "question_text_en": "With the word 'Automo' one has the impression that ...?",
+          "options": {
+            "A": "'haidel' berk",
+            "B": "'wuper' taal",
+            "C": "'magte' burk",
+            "D": "'bile' fehlt"
+          },
+          "correct_answer": "D",
+          "generated_answer": "D",
+          "is_correct": true,
+          "earnings_at_level": 200
+        },
+        {
+          "question_level": 4,
+          "question_text": "Was ist Gaensewein?",
+          "question_text_en": "What is goose wine?",
+          "options": {
+            "A": "Weisswein",
+            "B": "Rotwein",
+            "C": "Wasser",
+            "D": "Wodka"
+          },
+          "correct_answer": "C",
+          "generated_answer": "A",
+          "is_correct": false,
+          "earnings_at_level": 300
+        }
+      ]
+    }
+  ],
+  "timestamp": "2025-09-03T00:03:15.661314"
+}

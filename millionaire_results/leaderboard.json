@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-09-03T08:13:10.958416",
+  "total_models_evaluated": 15,
+  "total_programs_per_model": 45,
+  "leaderboard": [
+    {
+      "model": "xai/grok-4",
+      "total_earnings": 34717250,
+      "average_earnings": 771494.44,
+      "successful_programs": 34,
+      "total_programs": 45,
+      "success_rate": 75.6,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "openai/gpt-5",
+      "total_earnings": 32801500,
+      "average_earnings": 728922.22,
+      "successful_programs": 32,
+      "total_programs": 45,
+      "success_rate": 71.1,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "openai/gpt-5-mini",
+      "total_earnings": 25942750,
+      "average_earnings": 576505.56,
+      "successful_programs": 24,
+      "total_programs": 45,
+      "success_rate": 53.3,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "gcp/gemini-2.5-flash",
+      "total_earnings": 23400050,
+      "average_earnings": 520001.11,
+      "successful_programs": 23,
+      "total_programs": 45,
+      "success_rate": 51.1,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "fireworks/glm-4.5",
+      "total_earnings": 18338450,
+      "average_earnings": 407521.11,
+      "successful_programs": 17,
+      "total_programs": 45,
+      "success_rate": 37.8,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "anthropic/claude-sonnet-4",
+      "total_earnings": 16692950,
+      "average_earnings": 370954.44,
+      "successful_programs": 15,
+      "total_programs": 45,
+      "success_rate": 33.3,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "mistral/mistral-medium-2508-eu",
+      "total_earnings": 11066850,
+      "average_earnings": 245930.0,
+      "successful_programs": 10,
+      "total_programs": 45,
+      "success_rate": 22.2,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "openai/gpt-5-nano",
+      "total_earnings": 10596000,
+      "average_earnings": 235466.67,
+      "successful_programs": 10,
+      "total_programs": 45,
+      "success_rate": 22.2,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "berget/gpt-oss-120b",
+      "total_earnings": 9253900,
+      "average_earnings": 205642.22,
+      "successful_programs": 8,
+      "total_programs": 45,
+      "success_rate": 17.8,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "gcp/gemini-2.5-flash-lite",
+      "total_earnings": 4248450,
+      "average_earnings": 94410.0,
+      "successful_programs": 3,
+      "total_programs": 45,
+      "success_rate": 6.7,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "groq/moonshotai/kimi-k2-instruct",
+      "total_earnings": 3886650,
+      "average_earnings": 86370.0,
+      "successful_programs": 3,
+      "total_programs": 45,
+      "success_rate": 6.7,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "groq/gpt-oss-20b",
+      "total_earnings": 2394000,
+      "average_earnings": 53200.0,
+      "successful_programs": 2,
+      "total_programs": 45,
+      "success_rate": 4.4,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "anthropic/claude-3.5-haiku",
+      "total_earnings": 1373050,
+      "average_earnings": 30512.22,
+      "successful_programs": 1,
+      "total_programs": 45,
+      "success_rate": 2.2,
+      "max_earnings_single_program": 1000000
+    },
+    {
+      "model": "groq/gemma2-9b-it",
+      "total_earnings": 148850,
+      "average_earnings": 3307.78,
+      "successful_programs": 0,
+      "total_programs": 45,
+      "success_rate": 0.0,
+      "max_earnings_single_program": 125000
+    },
+    {
+      "model": "groq/llama-3.1-8b-instant",
+      "total_earnings": 4750,
+      "average_earnings": 105.56,
+      "successful_programs": 0,
+      "total_programs": 45,
+      "success_rate": 0.0,
+      "max_earnings_single_program": 2000
+    }
+  ]
+}
