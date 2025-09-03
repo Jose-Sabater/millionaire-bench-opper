@@ -34,7 +34,7 @@ with open("fragen_antworten_en.json", "r") as f:
 # Who Wants to Be a Millionaire earnings ladder (German format)
 EARNINGS_LADDER = {
     1: 50,  # Level 1: 50€
-    2: 100,  # Level 2: 100€
+    2: 100,  # Level 2: 100
     3: 200,  # Level 3: 200€
     4: 300,  # Level 4: 300€
     5: 500,  # Level 5: 500€ (safe haven)
@@ -186,7 +186,7 @@ async def run_single_program(
                                 span_id=question_span_id,
                                 dimension="potential_earnings",
                                 value=earnings_at_level,
-                                comment=f"Potential earnings at level {i}: €{earnings_at_level:,}",
+                                comment=f"Potential earnings at level {i}: eur {earnings_at_level:,}",
                             )
 
                             # Add question level metric
@@ -230,7 +230,7 @@ async def run_single_program(
                         # Update program span with elimination result
                         await opper.spans.update_async(
                             span_id=program_span.id,
-                            output=f"Eliminated at question {i}. Final earnings: €{final_earnings:,}",
+                            output=f"Eliminated at question {i}. Final earnings: eur {final_earnings:,}",
                         )
 
                         # Add program-level metrics
@@ -239,7 +239,7 @@ async def run_single_program(
                                 span_id=program_span.id,
                                 dimension="final_earnings",
                                 value=final_earnings,
-                                comment=f"Final earnings for program {program_id}: €{final_earnings:,}",
+                                comment=f"Final earnings for program {program_id}: eur {final_earnings:,}",
                             )
                             await opper.span_metrics.create_metric_async(
                                 span_id=program_span.id,
@@ -273,7 +273,7 @@ async def run_single_program(
                     # Update program span with error result
                     await opper.spans.update_async(
                         span_id=program_span.id,
-                        output=f"Error at question {i}: {e}. Final earnings: €{final_earnings:,}",
+                        output=f"Error at question {i}: {e}. Final earnings: eur {final_earnings:,}",
                     )
 
                     # Add program-level metrics for error case
@@ -282,7 +282,7 @@ async def run_single_program(
                             span_id=program_span.id,
                             dimension="final_earnings",
                             value=final_earnings,
-                            comment=f"Final earnings for program {program_id}: €{final_earnings:,}",
+                            comment=f"Final earnings for program {program_id}: eur {final_earnings:,}",
                         )
                         await opper.span_metrics.create_metric_async(
                             span_id=program_span.id,
@@ -314,7 +314,7 @@ async def run_single_program(
             # Update program span with success result
             await opper.spans.update_async(
                 span_id=program_span.id,
-                output=f"Completed all {len(questions)} questions! Final earnings: €{final_earnings:,}",
+                output=f"Completed all {len(questions)} questions! Final earnings: eur {final_earnings:,}",
             )
 
             # Add program-level metrics for successful completion
@@ -323,7 +323,7 @@ async def run_single_program(
                     span_id=program_span.id,
                     dimension="final_earnings",
                     value=final_earnings,
-                    comment=f"Final earnings for program {program_id}: €{final_earnings:,}",
+                    comment=f"Final earnings for program {program_id}: eur {final_earnings:,}",
                 )
                 await opper.span_metrics.create_metric_async(
                     span_id=program_span.id,
@@ -388,7 +388,7 @@ async def evaluate_model(model: str) -> ModelEvaluation:
     # Update parent span with results
     await opper.spans.update_async(
         span_id=parent_span.id,
-        output=f"Completed {total_programs} programs. Total earnings: €{total_earnings:,}. Average: €{average_earnings:.2f}",
+        output=f"Completed {total_programs} programs. Total earnings: eur {total_earnings:,}. Average: eur {average_earnings:.2f}",
     )
 
     evaluation = ModelEvaluation(
@@ -402,7 +402,7 @@ async def evaluate_model(model: str) -> ModelEvaluation:
     )
 
     print(
-        f"Completed evaluation for {model}: {successful_programs}/{total_programs} programs successful, €{total_earnings:,} total earnings"
+        f"Completed evaluation for {model}: {successful_programs}/{total_programs} programs successful, eur {total_earnings:,} total earnings"
     )
     return evaluation
 
@@ -447,10 +447,10 @@ async def run_all_evaluations():
             print(
                 f"Programs completed successfully: {evaluation.successful_programs}/{evaluation.total_programs}"
             )
-            print(f"Total earnings: €{evaluation.total_earnings:,}")
-            print(f"Average earnings per program: €{evaluation.average_earnings:.2f}")
+            print(f"Total earnings: eur {evaluation.total_earnings:,}")
+            print(f"Average earnings per program: eur {evaluation.average_earnings:.2f}")
             print(
-                f"Best program earnings: €{max(r.final_earnings for r in evaluation.programs) if evaluation.programs else 0:,}"
+                f"Best program earnings: eur {max(r.final_earnings for r in evaluation.programs) if evaluation.programs else 0:,}"
             )
 
         except Exception as e:
@@ -467,7 +467,7 @@ async def run_all_evaluations():
             all_results, key=lambda x: x.average_earnings, reverse=True
         ):
             print(
-                f"{evaluation.model:30} | Avg: €{evaluation.average_earnings:8.2f} | Total: €{evaluation.total_earnings:10,} | Success: {evaluation.successful_programs:2d}/{evaluation.total_programs}"
+                f"{evaluation.model:30} | Avg: eur {evaluation.average_earnings:8.2f} | Total: eur {evaluation.total_earnings:10,} | Success: {evaluation.successful_programs:2d}/{evaluation.total_programs}"
             )
 
         # Save combined results
