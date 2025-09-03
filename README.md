@@ -1,7 +1,7 @@
 # Millionaire Bench Opper
-Run [Millionaire Bench](https://github.com/ikiruneo/millionaire-bench/tree/main) concurrently and with many os and proprietary models
+Large Language Models Who wants to be a Millionaire , german version
 
-
+In this repo we run [Millionaire Bench](https://github.com/ikiruneo/millionaire-bench/tree/main) concurrently and with many open source and proprietary models
 Transformed the input data into a better format and also translated it. [fragen_antwrten_en](fragen_antworten_en.json)
 Each group of 15 questions is a "program". How many programs can each model complete successfully?
 Earnings are calculated in the same way as the original show and the original millionaire bench.
