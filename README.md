@@ -1,5 +1,5 @@
 # Millionaire Bench Opper
-Large Language Models Who wants to be a Millionaire , german version
+Large Language Models play 'Who wants to be a Millionaire' - german version
 
 In this repo we run [Millionaire Bench](https://github.com/ikiruneo/millionaire-bench/tree/main) concurrently and with many open source and proprietary models
 Transformed the input data into a better format and also translated it. [fragen_antwrten_en](fragen_antworten_en.json)
